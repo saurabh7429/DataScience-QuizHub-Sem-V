@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="CipherBank — Cryptography &amp; Blockchain MCQ practice for BCA exam preparation. 150 questions, 4 study modes." />
+  <meta name="theme-color" content="#101214" />
+  <title>CipherBank — Cryptography &amp; Blockchain MCQ</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════
+       LOADING SCREEN
+       ═══════════════════════════════════ -->
+  <div id="screen-loading" class="loading-screen" role="status" aria-live="polite">
+    <span class="loading-text">loading questions…</span>
+  </div>
+
+  <!-- ═══════════════════════════════════
+       ERROR SCREEN
+       ═══════════════════════════════════ -->
+  <div id="screen-error" class="error-screen hidden" role="alert">
+    <div class="error-card">
+      <div class="error-title">Dataset Error</div>
+      <pre id="error-message" class="error-msg"></pre>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════
+       HOME SCREEN
+       ═══════════════════════════════════ -->
+  <div id="screen-home" class="screen hidden" aria-label="CipherBank Home">
+    <div class="container">
+      <div class="home-wrapper">
+
+        <!-- Top bar -->
+        <div class="home-topbar">
+          <span class="home-brand text-mono">CIPHER_BANK</span>
+          <div style="display:flex;gap:6px;align-items:center;">
+            <button class="icon-btn" id="home-theme-btn" aria-label="Toggle theme" title="Toggle theme">
+              <svg id="home-theme-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/><line x1="4.93" y1="19.07" x2="7.76" y2="16.24"/><line x1="16.24" y1="7.76" x2="19.07" y2="4.93"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Hero -->
+        <header class="hero">
+          <div class="hero-eyebrow">BCA Exam Preparation</div>
+          <h1 class="hero-title"><span class="cipher">Cipher</span>Bank</h1>
+          <p class="hero-desc">Cryptography &amp; Blockchain MCQ practice for BCA exam preparation.</p>
+        </header>
+
+        <!-- Mode Menu -->
+        <div role="navigation" aria-label="Study modes">
+          <div class="modes-header">study modes</div>
+          <div class="modes-grid" role="list">
+
+            <!-- Mode 1: Read All -->
+            <button class="mode-card" id="btn-mode-readall" role="listitem" aria-label="Read All Questions — Browse all 150 questions">
+              <div class="mode-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+                </svg>
+              </div>
+              <div class="mode-body">
+                <div class="mode-tag">Mode 01</div>
+                <div class="mode-title">Read — All Questions</div>
+                <div class="mode-desc">Browse all 150 questions in one long scroll</div>
+              </div>
+              <div class="mode-arrow" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </div>
+            </button>
+
+            <!-- Mode 2: Read One by One -->
+            <button class="mode-card" id="btn-mode-readone" role="listitem" aria-label="Read One by One — Study one question at a time">
+              <div class="mode-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="12" x2="15" y2="12"/><line x1="9" y1="15" x2="12" y2="15"/>
+                </svg>
+              </div>
+              <div class="mode-body">
+                <div class="mode-tag">Mode 02</div>
+                <div class="mode-title">Read — One by One</div>
+                <div class="mode-desc">Study one question at a time with navigation</div>
+              </div>
+              <div class="mode-arrow" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </div>
+            </button>
+
+            <!-- Mode 3: Test -->
+            <button class="mode-card" id="btn-mode-test" role="listitem" aria-label="Test Mode — Sequential test with all 150 questions">
+              <div class="mode-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+                </svg>
+              </div>
+              <div class="mode-body">
+                <div class="mode-tag">Mode 03</div>
+                <div class="mode-title">Test — 150 Questions</div>
+                <div class="mode-desc">Sequential test with immediate answer feedback</div>
+              </div>
+              <div class="mode-arrow" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </div>
+            </button>
+
+            <!-- Mode 4: Exam -->
+            <button class="mode-card" id="btn-mode-exam" role="listitem" aria-label="Exam Mode — 25 random questions">
+              <div class="mode-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </div>
+              <div class="mode-body">
+                <div class="mode-tag">Mode 04</div>
+                <div class="mode-title">Exam — 25 Random</div>
+                <div class="mode-desc">Random 25-question exam simulation</div>
+              </div>
+              <div class="mode-arrow" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </div>
+            </button>
+
+          </div>
+        </div>
+
+        <!-- Wrong Answer History -->
+        <section class="history-section" aria-labelledby="history-heading">
+          <div class="section-header">
+            <h2 id="history-heading" class="section-label">Wrong Answer History</h2>
+            <div style="display:flex;gap:8px;align-items:center;">
+              <span class="history-meta" id="history-count-badge"></span>
+              <button class="btn-text hidden" id="btn-clear-history" aria-label="Clear wrong answer history">Clear</button>
+            </div>
+          </div>
+          <div id="history-container">
+            <div class="history-empty" id="history-empty">
+              No mistakes recorded yet. Start a Test or Exam to track wrong answers.
+            </div>
+          </div>
+        </section>
+
+        <!-- GitHub CTA -->
+        <a href="https://github.com/saurabh7429" target="_blank" rel="noopener noreferrer" class="github-cta" aria-label="Follow saurabh7429 on GitHub">
+          <svg class="github-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 96" aria-hidden="true">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="currentColor"/>
+          </svg>
+          <div class="github-text">
+            <strong>Follow on GitHub</strong>
+            <span>github.com/saurabh7429</span>
+          </div>
+          <div class="github-chevron" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </div>
+        </a>
+
+      </div><!-- /home-wrapper -->
+    </div><!-- /container -->
+  </div><!-- /#screen-home -->
+
+  <!-- ═══════════════════════════════════
+       STUDY SCREEN (shared shell for modes 1–4)
+       ═══════════════════════════════════ -->
+  <div id="screen-study" class="screen hidden" aria-label="Study mode">
+
+    <!-- Header -->
+    <header class="study-header" role="banner">
+      <button class="header-back" id="btn-back" aria-label="Go back to home">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+        Home
+      </button>
+      <div class="header-mode-title" id="header-mode-title" aria-live="polite">Mode</div>
+      <div class="header-controls">
+        <button class="icon-btn" id="study-theme-btn" aria-label="Toggle theme" title="Toggle theme">
+          <svg id="study-theme-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/><line x1="4.93" y1="19.07" x2="7.76" y2="16.24"/><line x1="16.24" y1="7.76" x2="19.07" y2="4.93"/>
+          </svg>
+        </button>
+        <button class="icon-btn" id="fullscreen-btn" aria-label="Toggle fullscreen" title="Toggle fullscreen">
+          <svg id="fullscreen-icon-enter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/>
+          </svg>
+          <svg id="fullscreen-icon-exit" class="hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="4 14 10 14 10 20"/><polyline points="20 10 14 10 14 4"/><line x1="10" y1="14" x2="3" y2="21"/><line x1="21" y1="3" x2="14" y2="10"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Progress bar (modes 2, 3, 4) -->
+    <div class="progress-bar-wrap hidden" id="progress-bar-wrap" aria-hidden="true">
+      <div class="progress-bar-fill" id="progress-bar-fill" style="width:0%"></div>
+    </div>
+
+    <!-- ══ MODE CONTENT AREAS ══ -->
+
+    <!-- Mode 1: Read All -->
+    <div id="mode-readall" class="hidden" role="main" aria-label="Read All Questions">
+      <div class="container">
+        <div class="read-all-content" id="readall-list">
+          <!-- Questions injected here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Mode 2: Read One by One -->
+    <div id="mode-readone" class="hidden" role="main" aria-label="Read One by One">
+      <div class="container">
+        <div class="study-content">
+          <div class="test-stats" id="readone-stats" aria-live="polite" aria-atomic="true">
+            <span class="test-stat">
+              <span class="stat-val" id="readone-current">1</span>
+              <span>/ 150</span>
+            </span>
+          </div>
+          <div id="readone-card" aria-live="polite" aria-atomic="true">
+            <!-- Question card injected here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mode 3: Test -->
+    <div id="mode-test" class="hidden" role="main" aria-label="Test Mode">
+      <div class="container">
+        <div class="study-content">
+          <div class="test-stats" id="test-stats" aria-live="polite" aria-atomic="true">
+            <span class="test-stat">
+              <span class="text-mono" style="color:var(--text-tertiary)">Q</span>
+              <span class="stat-val" id="test-current">1</span>
+              <span style="color:var(--text-tertiary)">/ 150</span>
+            </span>
+            <span class="bottom-nav-divider" style="height:12px;margin:0 4px;"></span>
+            <span class="test-stat">
+              <span style="color:var(--text-tertiary)">Correct:</span>
+              <span class="stat-val correct" id="test-correct-count">0</span>
+            </span>
+            <span class="test-stat">
+              <span style="color:var(--text-tertiary)">Wrong:</span>
+              <span class="stat-val wrong" id="test-wrong-count">0</span>
+            </span>
+          </div>
+          <div id="test-card" aria-live="polite" aria-atomic="true">
+            <!-- Question card injected here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mode 4: Exam -->
+    <div id="mode-exam" class="hidden" role="main" aria-label="Exam Mode">
+      <div class="container">
+        <div class="study-content">
+          <div class="test-stats" id="exam-stats" aria-live="polite" aria-atomic="true">
+            <span class="test-stat">
+              <span class="text-mono" style="color:var(--text-tertiary)">Q</span>
+              <span class="stat-val" id="exam-current">1</span>
+              <span style="color:var(--text-tertiary)">/ 25</span>
+            </span>
+            <span class="bottom-nav-divider" style="height:12px;margin:0 4px;"></span>
+            <span class="test-stat">
+              <span style="color:var(--text-tertiary)">Answered:</span>
+              <span class="stat-val" id="exam-answered-count" style="color:var(--cyan)">0</span>
+              <span style="color:var(--text-tertiary)">/ 25</span>
+            </span>
+          </div>
+          <div id="exam-card" aria-live="polite" aria-atomic="true">
+            <!-- Question card injected here -->
+          </div>
+          <div class="exam-submit-wrap">
+            <button class="exam-submit-btn" id="exam-submit-btn">Submit Exam</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="mode-results" class="hidden" role="main" aria-label="Results">
+      <div class="container">
+        <div class="results-screen">
+          <!-- Score ring -->
+          <div class="score-ring-wrap">
+            <div class="score-ring" role="img" aria-label="Score ring">
+              <svg viewBox="0 0 140 140" aria-hidden="true">
+                <circle class="score-ring-track" cx="70" cy="70" r="65"/>
+                <circle class="score-ring-fill" id="results-ring-fill" cx="70" cy="70" r="65"/>
+              </svg>
+              <div class="score-ring-text">
+                <div class="score-pct" id="results-pct">0%</div>
+                <div class="score-label">score</div>
+              </div>
+            </div>
+            <div class="score-grade" id="results-grade"></div>
+            <div class="score-subtitle" id="results-subtitle"></div>
+          </div>
+
+          <!-- Stats -->
+          <div class="score-stats" id="results-stats">
+            <!-- filled by JS -->
+          </div>
+
+          <!-- CTAs -->
+          <div class="results-actions" style="margin-top:20px;">
+            <button class="btn-outline" id="results-home-btn">Go Home</button>
+            <button class="btn-filled" id="results-retry-btn">Try Again</button>
+          </div>
+
+          <!-- Review list -->
+          <hr class="divider" />
+          <div class="review-header">
+            <span id="review-header-label">Review</span>
+            <span class="text-mono" id="review-header-count" style="color:var(--text-tertiary);font-size:0.6875rem;"></span>
+          </div>
+          <div class="review-list" id="results-review-list">
+            <!-- filled by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /#screen-study -->
+
+  <!-- ═══════════════════════════════════
+       FLOATING BOTTOM NAV
+       ═══════════════════════════════════ -->
+  <nav id="bottom-nav" class="bottom-nav hidden" aria-label="Question navigation">
+    <button class="bottom-nav-btn" id="nav-prev" aria-label="Previous question">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+      Prev
+    </button>
+    <div class="bottom-nav-divider" aria-hidden="true"></div>
+    <div class="bottom-nav-counter" id="nav-counter" aria-live="polite" aria-atomic="true">1 / 150</div>
+    <div class="bottom-nav-divider" aria-hidden="true"></div>
+    <button class="bottom-nav-btn" id="nav-next" aria-label="Next question">
+      Next
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </nav>
+
+  <!-- ═══════════════════════════════════
+       EXAM MAP BUTTON
+       ═══════════════════════════════════ -->
+  <button id="exam-map-btn" class="exam-map-btn hidden" aria-label="Open question map" title="Question map">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
+    </svg>
+    <span class="exam-map-badge" id="exam-map-badge" aria-hidden="true">0</span>
+  </button>
+
+  <!-- ═══════════════════════════════════
+       OVERLAYS
+       ═══════════════════════════════════ -->
+
+  <!-- Exam question map overlay -->
+  <div id="overlay-map" class="overlay" role="dialog" aria-modal="true" aria-labelledby="overlay-map-title">
+    <div class="overlay-panel">
+      <div class="overlay-header">
+        <div class="overlay-title" id="overlay-map-title">Question Map</div>
+        <button class="close-btn" id="overlay-map-close" aria-label="Close question map">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="map-grid" id="map-grid" role="list" aria-label="Question chips">
+        <!-- chips injected by JS -->
+      </div>
+      <div class="map-legend">
+        <div class="legend-item"><div class="legend-dot current"></div>Current</div>
+        <div class="legend-item"><div class="legend-dot answered"></div>Answered</div>
+        <div class="legend-item"><div class="legend-dot unanswered"></div>Unanswered</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confirm submit overlay -->
+  <div id="overlay-confirm" class="overlay" role="dialog" aria-modal="true" aria-labelledby="confirm-title">
+    <div class="confirm-dialog">
+      <div class="confirm-icon" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+      </div>
+      <div class="confirm-title" id="confirm-title">Submit Exam?</div>
+      <div class="confirm-msg" id="confirm-msg"></div>
+      <div class="confirm-actions">
+        <button class="btn-secondary" id="confirm-cancel">Keep Going</button>
+        <button class="btn-primary" id="confirm-submit">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

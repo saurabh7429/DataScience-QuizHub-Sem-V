@@ -1,0 +1,1859 @@
+{
+  "title": "Data Science Question Bank - Final Corrected Answer Key",
+  "source_file": "QB-DataScience.json",
+  "total_questions": 150,
+  "pdf_verification": {
+    "status": "not_performed",
+    "reason": "No separate PDF attachment was available in the conversation; PDF page-by-page verification therefore remains pending."
+  },
+  "questions": [
+    {
+      "srno": 1,
+      "question": "What are the two main types of cryptosystems?",
+      "options": {
+        "A": "Classical and Modern",
+        "B": "Symmetric and Asymmetric",
+        "C": "Public and Private",
+        "D": "Static and Dynamic"
+      },
+      "correct_option": "B",
+      "correct_answer": "Symmetric and Asymmetric"
+    },
+    {
+      "srno": 2,
+      "question": "In a symmetric key encryption system",
+      "options": {
+        "A": "Different keys are used for encryption and decryption",
+        "B": "The encryption key is public and decryption key is private",
+        "C": "The same key is used for both encryption and decryption",
+        "D": "No key is required"
+      },
+      "correct_option": "C",
+      "correct_answer": "The same key is used for both encryption and decryption"
+    },
+    {
+      "srno": 3,
+      "question": "Which of the following is a component of a cryptosystem?",
+      "options": {
+        "A": "Firewall",
+        "B": "Encryption Algorithm",
+        "C": "Web Server",
+        "D": "Router"
+      },
+      "correct_option": "B",
+      "correct_answer": "Encryption Algorithm"
+    },
+    {
+      "srno": 4,
+      "question": "The Caesar Cipher is a type of:",
+      "options": {
+        "A": "Transposition Cipher",
+        "B": "Public Key Cipher",
+        "C": "Substitution Cipher",
+        "D": "Hashing Algorithm"
+      },
+      "correct_option": "C",
+      "correct_answer": "Substitution Cipher"
+    },
+    {
+      "srno": 5,
+      "question": "Vigenère Cipher is a type of:",
+      "options": {
+        "A": "Monoalphabetic Cipher",
+        "B": "Polyalphabetic Cipher",
+        "C": "Transposition Cipher",
+        "D": "Block Cipher"
+      },
+      "correct_option": "B",
+      "correct_answer": "Polyalphabetic Cipher"
+    },
+    {
+      "srno": 6,
+      "question": "Which cipher rearranges the letters of the plaintext without changing the actual letters?",
+      "options": {
+        "A": "Caesar Cipher",
+        "B": "Transposition Cipher",
+        "C": "Monoalphabetic Cipher",
+        "D": "Vigenère Cipher"
+      },
+      "correct_option": "B",
+      "correct_answer": "Transposition Cipher"
+    },
+    {
+      "srno": 7,
+      "question": "DES is an example of:",
+      "options": {
+        "A": "Public Key Encryption",
+        "B": "Stream Cipher",
+        "C": "Block Cipher",
+        "D": "Hash Function"
+      },
+      "correct_option": "C",
+      "correct_answer": "Block Cipher"
+    },
+    {
+      "srno": 8,
+      "question": "How many keys are used in Triple DES?",
+      "options": {
+        "A": "1",
+        "B": "2 or 3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "correct_answer": "2 or 3"
+    },
+    {
+      "srno": 9,
+      "question": "AES stands for:",
+      "options": {
+        "A": "Automated Encryption Standard",
+        "B": "Advanced Encryption Standard",
+        "C": "Applied Encryption Scheme",
+        "D": "Advanced Electronic Security"
+      },
+      "correct_option": "B",
+      "correct_answer": "Advanced Encryption Standard"
+    },
+    {
+      "srno": 10,
+      "question": "A digital signature provides:",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Integrity",
+        "C": "Authentication and Integrity",
+        "D": "Encryption"
+      },
+      "correct_option": "C",
+      "correct_answer": "Authentication and Integrity"
+    },
+    {
+      "srno": 11,
+      "question": "Which of the following ensures data integrity?",
+      "options": {
+        "A": "Encryption",
+        "B": "Decryption",
+        "C": "Hashing",
+        "D": "Compression"
+      },
+      "correct_option": "C",
+      "correct_answer": "Hashing"
+    },
+    {
+      "srno": 12,
+      "question": "One major drawback of cryptography is:",
+      "options": {
+        "A": "Reduced data accuracy",
+        "B": "Insecure communication",
+        "C": "Increased resource consumption",
+        "D": "It removes authentication"
+      },
+      "correct_option": "C",
+      "correct_answer": "Increased resource consumption"
+    },
+    {
+      "srno": 13,
+      "question": "Bitcoin is:",
+      "options": {
+        "A": "A symmetric key algorithm",
+        "B": "A type of hashing function",
+        "C": "A digital currency built on blockchain",
+        "D": "A digital signature"
+      },
+      "correct_option": "C",
+      "correct_answer": "A digital currency built on blockchain"
+    },
+    {
+      "srno": 14,
+      "question": "Blockchain stores data in:",
+      "options": {
+        "A": "Files",
+        "B": "Tables",
+        "C": "Blocks",
+        "D": "Packets"
+      },
+      "correct_option": "C",
+      "correct_answer": "Blocks"
+    },
+    {
+      "srno": 15,
+      "question": "A distributed ledger in blockchain means:",
+      "options": {
+        "A": "Only one party holds the data",
+        "B": "A centralized database",
+        "C": "Data is stored at multiple nodes",
+        "D": "The ledger is printed"
+      },
+      "correct_option": "C",
+      "correct_answer": "Data is stored at multiple nodes"
+    },
+    {
+      "srno": 16,
+      "question": "Which of the following is not an attack on cryptosystems?",
+      "options": {
+        "A": "Brute-force attack",
+        "B": "Ciphertext-only attack",
+        "C": "Firewall bypass",
+        "D": "Known-plaintext attack"
+      },
+      "correct_option": "C",
+      "correct_answer": "Firewall bypass"
+    },
+    {
+      "srno": 17,
+      "question": "Asymmetric encryption is also known as:",
+      "options": {
+        "A": "Public key encryption",
+        "B": "Symmetric encryption",
+        "C": "Stream encryption",
+        "D": "Substitution encryption"
+      },
+      "correct_option": "A",
+      "correct_answer": "Public key encryption"
+    },
+    {
+      "srno": 18,
+      "question": "The main advantage of asymmetric encryption is:",
+      "options": {
+        "A": "Speed",
+        "B": "Larger key size",
+        "C": "No need to share secret keys",
+        "D": "Simplicity"
+      },
+      "correct_option": "C",
+      "correct_answer": "No need to share secret keys"
+    },
+    {
+      "srno": 19,
+      "question": "Monoalphabetic cipher uses:",
+      "options": {
+        "A": "Different substitution for each letter",
+        "B": "A fixed substitution throughout",
+        "C": "A numeric transformation",
+        "D": "Bitwise operations"
+      },
+      "correct_option": "B",
+      "correct_answer": "A fixed substitution throughout"
+    },
+    {
+      "srno": 20,
+      "question": "Which cipher is considered the simplest form of substitution cipher?",
+      "options": {
+        "A": "Vigenère Cipher",
+        "B": "Caesar Cipher",
+        "C": "Enigma Cipher",
+        "D": "One-Time Pad"
+      },
+      "correct_option": "B",
+      "correct_answer": "Caesar Cipher"
+    },
+    {
+      "srno": 21,
+      "question": "Which traditional cipher is the most vulnerable to frequency analysis?",
+      "options": {
+        "A": "Vigenère Cipher",
+        "B": "Caesar Cipher",
+        "C": "Transposition Cipher",
+        "D": "Monoalphabetic Cipher"
+      },
+      "correct_option": "D",
+      "correct_answer": "Monoalphabetic Cipher"
+    },
+    {
+      "srno": 22,
+      "question": "Which key size is commonly used in AES?",
+      "options": {
+        "A": "64-bit",
+        "B": "128-bit",
+        "C": "512-bit",
+        "D": "32-bit"
+      },
+      "correct_option": "B",
+      "correct_answer": "128-bit"
+    },
+    {
+      "srno": 23,
+      "question": "Hash functions are primarily used to:",
+      "options": {
+        "A": "Encrypt messages",
+        "B": "Sign digital documents",
+        "C": "Generate message digests",
+        "D": "Compress data"
+      },
+      "correct_option": "C",
+      "correct_answer": "Generate message digests"
+    },
+    {
+      "srno": 24,
+      "question": "Which one is not a modern symmetric encryption algorithm?",
+      "options": {
+        "A": "AES",
+        "B": "DES",
+        "C": "RSA",
+        "D": "Triple DES"
+      },
+      "correct_option": "C",
+      "correct_answer": "RSA"
+    },
+    {
+      "srno": 25,
+      "question": "In cryptography, a message digest refers to:",
+      "options": {
+        "A": "Compressed message",
+        "B": "Encrypted file",
+        "C": "Hash output",
+        "D": "Decrypted data"
+      },
+      "correct_option": "C",
+      "correct_answer": "Hash output"
+    },
+    {
+      "srno": 26,
+      "question": "Which cryptographic tool helps verify that data has not been altered?",
+      "options": {
+        "A": "Digital certificate",
+        "B": "Encryption",
+        "C": "Digital signature",
+        "D": "Steganography"
+      },
+      "correct_option": "C",
+      "correct_answer": "Digital signature"
+    },
+    {
+      "srno": 27,
+      "question": "A benefit of cryptography in network security is:",
+      "options": {
+        "A": "Increasing bandwidth",
+        "B": "Reducing latency",
+        "C": "Ensuring confidentiality and authentication",
+        "D": "Slowing down intruders"
+      },
+      "correct_option": "C",
+      "correct_answer": "Ensuring confidentiality and authentication"
+    },
+    {
+      "srno": 28,
+      "question": "One drawback of strong cryptographic algorithms is:",
+      "options": {
+        "A": "Their vulnerability to physical attacks",
+        "B": "Their dependence on outdated technology",
+        "C": "High computational cost",
+        "D": "Limited usage in modern systems"
+      },
+      "correct_option": "C",
+      "correct_answer": "High computational cost"
+    },
+    {
+      "srno": 29,
+      "question": "A hash function in blockchain:",
+      "options": {
+        "A": "Converts plaintext to ciphertext",
+        "B": "Creates a fixed-length output from any input",
+        "C": "Encrypts entire blocks",
+        "D": "Verifies user identity"
+      },
+      "correct_option": "B",
+      "correct_answer": "Creates a fixed-length output from any input"
+    },
+    {
+      "srno": 30,
+      "question": "The immutability of blockchain is due to:",
+      "options": {
+        "A": "Encrypted backups",
+        "B": "Centralized control",
+        "C": "Hash chaining between blocks",
+        "D": "Secure cloud storage"
+      },
+      "correct_option": "C",
+      "correct_answer": "Hash chaining between blocks"
+    },
+    {
+      "srno": 31,
+      "question": "In asymmetric encryption, the public key is used for:",
+      "options": {
+        "A": "Decryption only",
+        "B": "Encryption only",
+        "C": "Both encryption and decryption",
+        "D": "Generating hash values"
+      },
+      "correct_option": "B",
+      "correct_answer": "Encryption only"
+    },
+    {
+      "srno": 32,
+      "question": "The security of asymmetric cryptosystems relies on:",
+      "options": {
+        "A": "Private networks",
+        "B": "Secrecy of algorithms",
+        "C": "Computational difficulty of mathematical problems",
+        "D": "Data compression"
+      },
+      "correct_option": "C",
+      "correct_answer": "Computational difficulty of mathematical problems"
+    },
+    {
+      "srno": 33,
+      "question": "Which attack uses precomputed hash values to crack passwords?",
+      "options": {
+        "A": "Brute-force attack",
+        "B": "Dictionary attack",
+        "C": "Rainbow table attack",
+        "D": "Chosen-plaintext attack"
+      },
+      "correct_option": "C",
+      "correct_answer": "Rainbow table attack"
+    },
+    {
+      "srno": 34,
+      "question": "Which cipher was used by Julius Caesar in ancient times?",
+      "options": {
+        "A": "Monoalphabetic Cipher",
+        "B": "Vigenère Cipher",
+        "C": "Caesar Cipher",
+        "D": "Transposition Cipher"
+      },
+      "correct_option": "C",
+      "correct_answer": "Caesar Cipher"
+    },
+    {
+      "srno": 35,
+      "question": "Which cipher technique involves rearranging the order of characters?",
+      "options": {
+        "A": "Substitution",
+        "B": "Transposition",
+        "C": "Hybrid",
+        "D": "Hashing"
+      },
+      "correct_option": "B",
+      "correct_answer": "Transposition"
+    },
+    {
+      "srno": 36,
+      "question": "What makes polyalphabetic ciphers stronger than monoalphabetic ciphers?",
+      "options": {
+        "A": "Larger keys",
+        "B": "Multiple substitution alphabets",
+        "C": "Use of XOR operations",
+        "D": "Reverse encryption"
+      },
+      "correct_option": "B",
+      "correct_answer": "Multiple substitution alphabets"
+    },
+    {
+      "srno": 37,
+      "question": "RSA is based on the mathematical difficulty of:",
+      "options": {
+        "A": "Integer division",
+        "B": "Prime factorization",
+        "C": "Matrix inversion",
+        "D": "Modular addition"
+      },
+      "correct_option": "B",
+      "correct_answer": "Prime factorization"
+    },
+    {
+      "srno": 38,
+      "question": "The key length of RSA typically used for secure communications is:",
+      "options": {
+        "A": "56-bit",
+        "B": "128-bit",
+        "C": "2048-bit",
+        "D": "64-bit"
+      },
+      "correct_option": "C",
+      "correct_answer": "2048-bit"
+    },
+    {
+      "srno": 39,
+      "question": "Which of the following is not a property of a good hash function?",
+      "options": {
+        "A": "Deterministic output",
+        "B": "Reversibility",
+        "C": "Collision resistance",
+        "D": "Fixed-length output"
+      },
+      "correct_option": "B",
+      "correct_answer": "Reversibility"
+    },
+    {
+      "srno": 40,
+      "question": "A collision in a hash function means:",
+      "options": {
+        "A": "The same input gives different outputs",
+        "B": "Two different inputs produce the same hash",
+        "C": "The hash function fails to run",
+        "D": "The key is exposed"
+      },
+      "correct_option": "B",
+      "correct_answer": "Two different inputs produce the same hash"
+    },
+    {
+      "srno": 41,
+      "question": "Which of the following is an advantage of cryptography?",
+      "options": {
+        "A": "Eliminates need for passwords",
+        "B": "Increases network speed",
+        "C": "Provides data confidentiality and integrity",
+        "D": "Allows easy key sharing"
+      },
+      "correct_option": "C",
+      "correct_answer": "Provides data confidentiality and integrity"
+    },
+    {
+      "srno": 42,
+      "question": "Cryptography does not protect against:",
+      "options": {
+        "A": "Data tampering",
+        "B": "Network sniffing",
+        "C": "User impersonation",
+        "D": "Physical theft of data"
+      },
+      "correct_option": "D",
+      "correct_answer": "Physical theft of data"
+    },
+    {
+      "srno": 43,
+      "question": "Each block in a blockchain contains:",
+      "options": {
+        "A": "Only transaction data",
+        "B": "Timestamp and hash of the previous block",
+        "C": "Public key and signature",
+        "D": "A single user's data"
+      },
+      "correct_option": "B",
+      "correct_answer": "Timestamp and hash of the previous block"
+    },
+    {
+      "srno": 44,
+      "question": "Blockchain uses consensus algorithms to:",
+      "options": {
+        "A": "Encrypt data",
+        "B": "Verify transactions",
+        "C": "Store private keys",
+        "D": "Decode hash functions"
+      },
+      "correct_option": "B",
+      "correct_answer": "Verify transactions"
+    },
+    {
+      "srno": 45,
+      "question": "Which of the following is a key feature of blockchain technology?",
+      "options": {
+        "A": "Centralized ledger",
+        "B": "Immutable records",
+        "C": "Hidden transactions",
+        "D": "Open file sharing"
+      },
+      "correct_option": "B",
+      "correct_answer": "Immutable records"
+    },
+    {
+      "srno": 46,
+      "question": "Which of the following best defines a cryptosystem?",
+      "options": {
+        "A": "A program used to send messages",
+        "B": "A structure that defines encryption, decryption, and key management",
+        "C": "A system for digital marketing",
+        "D": "A public ledger of transactions"
+      },
+      "correct_option": "B",
+      "correct_answer": "A structure that defines encryption, decryption, and key management"
+    },
+    {
+      "srno": 47,
+      "question": "In public-key cryptography, the private key is:",
+      "options": {
+        "A": "Shared with everyone",
+        "B": "Only used to encrypt messages",
+        "C": "Kept secret and used to decrypt messages",
+        "D": "Used to generate hash values"
+      },
+      "correct_option": "C",
+      "correct_answer": "Kept secret and used to decrypt messages"
+    },
+    {
+      "srno": 48,
+      "question": "Chosen-plaintext attack (CPA) means the attacker can:",
+      "options": {
+        "A": "Only see the ciphertext",
+        "B": "Only see the public key",
+        "C": "Choose arbitrary plaintexts to encrypt and observe ciphertexts",
+        "D": "Modify the encryption algorithm"
+      },
+      "correct_option": "C",
+      "correct_answer": "Choose arbitrary plaintexts to encrypt and observe ciphertexts"
+    },
+    {
+      "srno": 49,
+      "question": "The weakness of Caesar cipher is due to:",
+      "options": {
+        "A": "Its use of a private key",
+        "B": "Limited number of possible shifts (25)",
+        "C": "Complexity of the algorithm",
+        "D": "One-time pads"
+      },
+      "correct_option": "B",
+      "correct_answer": "Limited number of possible shifts (25)"
+    },
+    {
+      "srno": 50,
+      "question": "What does a substitution cipher do?",
+      "options": {
+        "A": "Shifts letters based on their position",
+        "B": "Rearranges characters",
+        "C": "Replaces each character with another",
+        "D": "Encrypts using a key pair"
+      },
+      "correct_option": "C",
+      "correct_answer": "Replaces each character with another"
+    },
+    {
+      "srno": 51,
+      "question": "Which cipher is considered unbreakable if used properly with a random key as long as the message?",
+      "options": {
+        "A": "Caesar Cipher",
+        "B": "Vigenère Cipher",
+        "C": "One-Time Pad",
+        "D": "Transposition Cipher"
+      },
+      "correct_option": "C",
+      "correct_answer": "One-Time Pad"
+    },
+    {
+      "srno": 52,
+      "question": "Which modern algorithm is most widely used in securing wireless networks (e.g., WPA2)?",
+      "options": {
+        "A": "DES",
+        "B": "RSA",
+        "C": "AES",
+        "D": "MD5"
+      },
+      "correct_option": "C",
+      "correct_answer": "AES"
+    },
+    {
+      "srno": 53,
+      "question": "The output of a hash function is called:",
+      "options": {
+        "A": "Key",
+        "B": "Message digest",
+        "C": "Signature",
+        "D": "Ciphertext"
+      },
+      "correct_option": "B",
+      "correct_answer": "Message digest"
+    },
+    {
+      "srno": 54,
+      "question": "Which algorithm is considered insecure today due to its small key size and vulnerability to brute-force attacks?",
+      "options": {
+        "A": "AES",
+        "B": "SHA-256",
+        "C": "DES",
+        "D": "RSA-2048"
+      },
+      "correct_option": "C",
+      "correct_answer": "DES"
+    },
+    {
+      "srno": 55,
+      "question": "Which term describes the ability to detect unauthorized changes to data?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Authenticity",
+        "C": "Integrity",
+        "D": "Obfuscation"
+      },
+      "correct_option": "C",
+      "correct_answer": "Integrity"
+    },
+    {
+      "srno": 56,
+      "question": "A digital signature is typically created using:",
+      "options": {
+        "A": "Hashing only",
+        "B": "Symmetric encryption",
+        "C": "A sender's private key",
+        "D": "A recipient's public key"
+      },
+      "correct_option": "C",
+      "correct_answer": "A sender's private key"
+    },
+    {
+      "srno": 57,
+      "question": "One limitation of public key encryption is:",
+      "options": {
+        "A": "It is not secure",
+        "B": "It cannot be used over the internet",
+        "C": "It is slower than symmetric encryption",
+        "D": "It uses the same key for both parties"
+      },
+      "correct_option": "C",
+      "correct_answer": "It is slower than symmetric encryption"
+    },
+    {
+      "srno": 58,
+      "question": "Which of the following consensus mechanisms is used in Bitcoin?",
+      "options": {
+        "A": "Proof of Stake (PoS)",
+        "B": "Delegated Proof of Stake (DPoS)",
+        "C": "Proof of Work (PoW)",
+        "D": "Practical Byzantine Fault Tolerance (PBFT)"
+      },
+      "correct_option": "C",
+      "correct_answer": "Proof of Work (PoW)"
+    },
+    {
+      "srno": 59,
+      "question": "The process of verifying and adding transactions to the blockchain is known as:",
+      "options": {
+        "A": "Mining",
+        "B": "Forking",
+        "C": "Hashing",
+        "D": "Signing"
+      },
+      "correct_option": "A",
+      "correct_answer": "Mining"
+    },
+    {
+      "srno": 60,
+      "question": "In blockchain, immutability means:",
+      "options": {
+        "A": "The chain is centralized",
+        "B": "Only administrators can modify data",
+        "C": "Once written, data cannot be changed",
+        "D": "Data is encrypted with private keys"
+      },
+      "correct_option": "C",
+      "correct_answer": "Once written, data cannot be changed"
+    },
+    {
+      "srno": 61,
+      "question": "Which property ensures that only the intended recipient can read a message?",
+      "options": {
+        "A": "Integrity",
+        "B": "Confidentiality",
+        "C": "Availability",
+        "D": "Authentication"
+      },
+      "correct_option": "B",
+      "correct_answer": "Confidentiality"
+    },
+    {
+      "srno": 62,
+      "question": "Which cryptographic method uses two keys mathematically linked together?",
+      "options": {
+        "A": "Caesar Cipher",
+        "B": "Stream Cipher",
+        "C": "Public Key Cryptography",
+        "D": "Hashing"
+      },
+      "correct_option": "C",
+      "correct_answer": "Public Key Cryptography"
+    },
+    {
+      "srno": 63,
+      "question": "What is key management in cryptography concerned with?",
+      "options": {
+        "A": "Designing cipher algorithms",
+        "B": "Creating long passwords",
+        "C": "Generating, distributing, and storing cryptographic keys",
+        "D": "Encrypting images"
+      },
+      "correct_option": "C",
+      "correct_answer": "Generating, distributing, and storing cryptographic keys"
+    },
+    {
+      "srno": 64,
+      "question": "Which cipher type is most affected by letter frequency analysis?",
+      "options": {
+        "A": "Caesar Cipher",
+        "B": "Vigenère Cipher",
+        "C": "Transposition Cipher",
+        "D": "One-Time Pad"
+      },
+      "correct_option": "A",
+      "correct_answer": "Caesar Cipher"
+    },
+    {
+      "srno": 65,
+      "question": "The Vigenère cipher combats letter frequency attacks by:",
+      "options": {
+        "A": "Using mathematical operations",
+        "B": "Shifting letters randomly",
+        "C": "Applying multiple Caesar shifts based on a keyword",
+        "D": "Scrambling bits"
+      },
+      "correct_option": "C",
+      "correct_answer": "Applying multiple Caesar shifts based on a keyword"
+    },
+    {
+      "srno": 66,
+      "question": "A transposition cipher maintains:",
+      "options": {
+        "A": "The order of letters",
+        "B": "The letter frequency",
+        "C": "The position of the key",
+        "D": "None of the above"
+      },
+      "correct_option": "B",
+      "correct_answer": "The letter frequency"
+    },
+    {
+      "srno": 67,
+      "question": "Which algorithm is commonly used for digital certificates?",
+      "options": {
+        "A": "AES",
+        "B": "DES",
+        "C": "RSA",
+        "D": "Blowfish"
+      },
+      "correct_option": "C",
+      "correct_answer": "RSA"
+    },
+    {
+      "srno": 68,
+      "question": "Which of the following is a secure hash function?",
+      "options": {
+        "A": "MD4",
+        "B": "MD5",
+        "C": "SHA-256",
+        "D": "SHA-1"
+      },
+      "correct_option": "C",
+      "correct_answer": "SHA-256"
+    },
+    {
+      "srno": 69,
+      "question": "In a digital signature, the verification is done using:",
+      "options": {
+        "A": "Sender's public key",
+        "B": "Receiver's private key",
+        "C": "Receiver's public key",
+        "D": "Sender's private key"
+      },
+      "correct_option": "A",
+      "correct_answer": "Sender's public key"
+    },
+    {
+      "srno": 70,
+      "question": "Cryptography helps prevent:",
+      "options": {
+        "A": "Email spam",
+        "B": "Data loss",
+        "C": "Unauthorized access and tampering",
+        "D": "Operating system failure"
+      },
+      "correct_option": "C",
+      "correct_answer": "Unauthorized access and tampering"
+    },
+    {
+      "srno": 71,
+      "question": "Which of the following is not a goal of cryptography?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Data redundancy",
+        "C": "Integrity",
+        "D": "Non-repudiation"
+      },
+      "correct_option": "B",
+      "correct_answer": "Data redundancy"
+    },
+    {
+      "srno": 72,
+      "question": "Non-repudiation ensures:",
+      "options": {
+        "A": "The message cannot be intercepted",
+        "B": "The sender cannot deny sending the message",
+        "C": "The message cannot be altered",
+        "D": "The recipient cannot view the message"
+      },
+      "correct_option": "B",
+      "correct_answer": "The sender cannot deny sending the message"
+    },
+    {
+      "srno": 73,
+      "question": "What does the blockchain term \"genesis block\" refer to?",
+      "options": {
+        "A": "The latest block in the chain",
+        "B": "A hash function",
+        "C": "The first block in the blockchain",
+        "D": "A mining algorithm"
+      },
+      "correct_option": "C",
+      "correct_answer": "The first block in the blockchain"
+    },
+    {
+      "srno": 74,
+      "question": "What ensures transparency in blockchain systems?",
+      "options": {
+        "A": "Hidden records",
+        "B": "Public access to the ledger",
+        "C": "Password encryption",
+        "D": "Restricted consensus"
+      },
+      "correct_option": "B",
+      "correct_answer": "Public access to the ledger"
+    },
+    {
+      "srno": 75,
+      "question": "Which of the following makes blockchain resistant to tampering?",
+      "options": {
+        "A": "Centralized servers",
+        "B": "Frequent updates",
+        "C": "Cryptographic hash linking of blocks",
+        "D": "Open-source licensing"
+      },
+      "correct_option": "C",
+      "correct_answer": "Cryptographic hash linking of blocks"
+    },
+    {
+      "srno": 76,
+      "question": "Which of the following algorithms is not used for encryption?",
+      "options": {
+        "A": "AES",
+        "B": "SHA-256",
+        "C": "DES",
+        "D": "RSA"
+      },
+      "correct_option": "B",
+      "correct_answer": "SHA-256"
+    },
+    {
+      "srno": 77,
+      "question": "The effectiveness of brute-force attacks can be reduced by:",
+      "options": {
+        "A": "Shorter keys",
+        "B": "Hashing the ciphertext",
+        "C": "Using strong, longer keys",
+        "D": "Sending plaintext instead"
+      },
+      "correct_option": "C",
+      "correct_answer": "Using strong, longer keys"
+    },
+    {
+      "srno": 78,
+      "question": "The purpose of salting in password storage is to:",
+      "options": {
+        "A": "Encrypt the passwords",
+        "B": "Add unique randomness to passwords/hashes and help prevent precomputed (e.g., rainbow-table) attacks",
+        "C": "Convert passwords to base64",
+        "D": "Make hashing reversible"
+      },
+      "correct_option": "B",
+      "correct_answer": "Add unique randomness to passwords/hashes and help prevent precomputed (e.g., rainbow-table) attacks",
+      "original_question": "The purpose of salting in password storage is to:",
+      "original_options": {
+        "A": "Encrypt the passwords",
+        "B": "Slow down attackers by adding randomness",
+        "C": "Convert passwords to base64",
+        "D": "Make hashing reversible"
+      },
+      "technical_note": "The original wording incorrectly frames salting itself as the deliberate slowdown. Slow password hashing/KDF work factors provide computational slowdown; salting provides uniqueness and defeats precomputed tables."
+    },
+    {
+      "srno": 79,
+      "question": "A digital certificate binds:",
+      "options": {
+        "A": "A user to an IP address",
+        "B": "A private key to a hash function",
+        "C": "A public key to an identity",
+        "D": "A message to a time stamp"
+      },
+      "correct_option": "C",
+      "correct_answer": "A public key to an identity"
+    },
+    {
+      "srno": 80,
+      "question": "SSL/TLS protocols use:",
+      "options": {
+        "A": "Only symmetric encryption",
+        "B": "Only hashing",
+        "C": "A combination of symmetric and asymmetric encryption",
+        "D": "Steganography"
+      },
+      "correct_option": "C",
+      "correct_answer": "A combination of symmetric and asymmetric encryption"
+    },
+    {
+      "srno": 81,
+      "question": "A strong hash function must be resistant to:",
+      "options": {
+        "A": "Compression",
+        "B": "Random inputs",
+        "C": "Collisions",
+        "D": "Encryption"
+      },
+      "correct_option": "C",
+      "correct_answer": "Collisions"
+    },
+    {
+      "srno": 82,
+      "question": "Message authentication codes (MACs) are used to:",
+      "options": {
+        "A": "Encrypt the entire message",
+        "B": "Ensure message authenticity and integrity",
+        "C": "Store private keys",
+        "D": "Hash passwords"
+      },
+      "correct_option": "B",
+      "correct_answer": "Ensure message authenticity and integrity"
+    },
+    {
+      "srno": 83,
+      "question": "Which algorithm uses block ciphers in rounds and substitution-permutation networks?",
+      "options": {
+        "A": "DES",
+        "B": "RSA",
+        "C": "AES",
+        "D": "SHA-1"
+      },
+      "correct_option": "C",
+      "correct_answer": "AES",
+      "original_options": {
+        "A": "DES",
+        "B": "RSA",
+        "C": "Vigenère Cipher",
+        "D": "SHA-1"
+      },
+      "technical_note": "The supplied source had “Vigenère Cipher” in option C, but the technical answer is AES. The original source therefore had a missing-answer/option-text error."
+    },
+    {
+      "srno": 84,
+      "question": "How many rounds does AES-128 perform?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "16"
+      },
+      "correct_option": "B",
+      "correct_answer": "10"
+    },
+    {
+      "srno": 85,
+      "question": "What is the block size of AES?",
+      "options": {
+        "A": "56 bits",
+        "B": "128 bits",
+        "C": "64 bits",
+        "D": "192 bits"
+      },
+      "correct_option": "B",
+      "correct_answer": "128 bits"
+    },
+    {
+      "srno": 86,
+      "question": "The block size of DES is:",
+      "options": {
+        "A": "128 bits",
+        "B": "64 bits",
+        "C": "56 bits",
+        "D": "32 bits"
+      },
+      "correct_option": "B",
+      "correct_answer": "64 bits"
+    },
+    {
+      "srno": 87,
+      "question": "Which attack assumes access to both plaintext and ciphertext?",
+      "options": {
+        "A": "Ciphertext-only attack",
+        "B": "Chosen-plaintext attack",
+        "C": "Known-plaintext attack",
+        "D": "Side-channel attack"
+      },
+      "correct_option": "C",
+      "correct_answer": "Known-plaintext attack"
+    },
+    {
+      "srno": 88,
+      "question": "The Avalanche Effect in cryptography means:",
+      "options": {
+        "A": "All keys generate similar ciphertext",
+        "B": "Small input change causes major output change",
+        "C": "The algorithm is unstable",
+        "D": "The encryption causes a crash"
+      },
+      "correct_option": "B",
+      "correct_answer": "Small input change causes major output change"
+    },
+    {
+      "srno": 89,
+      "question": "Which key pair is used in digital signatures?",
+      "options": {
+        "A": "Private key to sign, public key to verify",
+        "B": "Public key to sign, private key to verify",
+        "C": "Both private and public for verification",
+        "D": "Symmetric keys"
+      },
+      "correct_option": "A",
+      "correct_answer": "Private key to sign, public key to verify"
+    },
+    {
+      "srno": 90,
+      "question": "What is blockchain mining?",
+      "options": {
+        "A": "Encrypting wallets",
+        "B": "Verifying transactions and adding them to the chain",
+        "C": "Buying cryptocurrency",
+        "D": "Hacking into blockchain networks"
+      },
+      "correct_option": "B",
+      "correct_answer": "Verifying transactions and adding them to the chain"
+    },
+    {
+      "srno": 91,
+      "question": "Which type of encryption is faster in execution?",
+      "options": {
+        "A": "Asymmetric",
+        "B": "Public-key",
+        "C": "Symmetric",
+        "D": "Digital signature"
+      },
+      "correct_option": "C",
+      "correct_answer": "Symmetric"
+    },
+    {
+      "srno": 92,
+      "question": "In cryptography, non-repudiation ensures:",
+      "options": {
+        "A": "The message has not been altered",
+        "B": "The sender cannot deny having sent the message",
+        "C": "The message remains confidential",
+        "D": "The system can be reset"
+      },
+      "correct_option": "B",
+      "correct_answer": "The sender cannot deny having sent the message"
+    },
+    {
+      "srno": 93,
+      "question": "Which cryptographic technique is widely used in blockchain for linking blocks?",
+      "options": {
+        "A": "Vigenère Cipher",
+        "B": "Hashing",
+        "C": "RSA",
+        "D": "AES"
+      },
+      "correct_option": "B",
+      "correct_answer": "Hashing"
+    },
+    {
+      "srno": 94,
+      "question": "The SHA-256 algorithm always outputs a hash of:",
+      "options": {
+        "A": "128 bits",
+        "B": "64 bits",
+        "C": "256 bits",
+        "D": "Variable length"
+      },
+      "correct_option": "C",
+      "correct_answer": "256 bits"
+    },
+    {
+      "srno": 95,
+      "question": "The process of making encrypted data readable again is called:",
+      "options": {
+        "A": "Transposition",
+        "B": "Hashing",
+        "C": "Decryption",
+        "D": "Obfuscation"
+      },
+      "correct_option": "C",
+      "correct_answer": "Decryption"
+    },
+    {
+      "srno": 96,
+      "question": "Which of these is true about the Caesar cipher?",
+      "options": {
+        "A": "It uses random keys",
+        "B": "It is a polyalphabetic cipher",
+        "C": "It shifts letters by a fixed number",
+        "D": "It scrambles letters without substitution"
+      },
+      "correct_option": "C",
+      "correct_answer": "It shifts letters by a fixed number"
+    },
+    {
+      "srno": 97,
+      "question": "The main weakness of DES today is:",
+      "options": {
+        "A": "Lack of mathematical proof",
+        "B": "Too complex for practical use",
+        "C": "Small key size (56 bits)",
+        "D": "Vulnerable to chosen-plaintext attacks only"
+      },
+      "correct_option": "C",
+      "correct_answer": "Small key size (56 bits)"
+    },
+    {
+      "srno": 98,
+      "question": "Triple DES performs how many DES operations?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "6"
+      },
+      "correct_option": "C",
+      "correct_answer": "3"
+    },
+    {
+      "srno": 99,
+      "question": "Which of the following is a symmetric encryption algorithm?",
+      "options": {
+        "A": "RSA",
+        "B": "SHA-1",
+        "C": "AES",
+        "D": "DSA"
+      },
+      "correct_option": "C",
+      "correct_answer": "AES"
+    },
+    {
+      "srno": 100,
+      "question": "Which attack is based on measuring physical information like timing and power usage?",
+      "options": {
+        "A": "Brute-force attack",
+        "B": "Side-channel attack",
+        "C": "Known-plaintext attack",
+        "D": "Ciphertext-only attack"
+      },
+      "correct_option": "B",
+      "correct_answer": "Side-channel attack"
+    },
+    {
+      "srno": 101,
+      "question": "Blockchain is considered decentralized because:",
+      "options": {
+        "A": "It is managed by a central database",
+        "B": "No single entity controls the data",
+        "C": "It uses encryption only",
+        "D": "It works offline"
+      },
+      "correct_option": "B",
+      "correct_answer": "No single entity controls the data"
+    },
+    {
+      "srno": 102,
+      "question": "A major benefit of public blockchains is:",
+      "options": {
+        "A": "High speed",
+        "B": "Controlled access",
+        "C": "Transparency and trust",
+        "D": "Private user data"
+      },
+      "correct_option": "C",
+      "correct_answer": "Transparency and trust"
+    },
+    {
+      "srno": 103,
+      "question": "What ensures immutability in blockchain?",
+      "options": {
+        "A": "Centralized data servers",
+        "B": "Editing capabilities",
+        "C": "Chained hashes of previous blocks",
+        "D": "Frequent software updates"
+      },
+      "correct_option": "C",
+      "correct_answer": "Chained hashes of previous blocks"
+    },
+    {
+      "srno": 104,
+      "question": "In asymmetric encryption, what is kept secret?",
+      "options": {
+        "A": "Public key",
+        "B": "Decrypted data",
+        "C": "Private key",
+        "D": "Ciphertext"
+      },
+      "correct_option": "C",
+      "correct_answer": "Private key"
+    },
+    {
+      "srno": 105,
+      "question": "Which one of the following is not a block cipher?",
+      "options": {
+        "A": "DES",
+        "B": "AES",
+        "C": "RSA",
+        "D": "Blowfish"
+      },
+      "correct_option": "C",
+      "correct_answer": "RSA"
+    },
+    {
+      "srno": 106,
+      "question": "What is the primary function of a cryptographic hash function?",
+      "options": {
+        "A": "Encrypt data",
+        "B": "Compress data",
+        "C": "Generate a fixed-length output from input data",
+        "D": "Create a digital certificate"
+      },
+      "correct_option": "C",
+      "correct_answer": "Generate a fixed-length output from input data"
+    },
+    {
+      "srno": 107,
+      "question": "Which cryptographic concept ensures data has not been altered in transit?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Integrity",
+        "C": "Availability",
+        "D": "Non-repudiation"
+      },
+      "correct_option": "B",
+      "correct_answer": "Integrity"
+    },
+    {
+      "srno": 108,
+      "question": "Which of the following uses substitution and permutation operations in its rounds?",
+      "options": {
+        "A": "Caesar cipher",
+        "B": "Stream cipher",
+        "C": "AES",
+        "D": "One-time pad"
+      },
+      "correct_option": "C",
+      "correct_answer": "AES",
+      "original_question": "Which of the following uses both substitution and transposition techniques?",
+      "technical_note": "The original word “transposition” is replaced with the more precise “permutation”."
+    },
+    {
+      "srno": 109,
+      "question": "In asymmetric encryption, the sender uses:",
+      "options": {
+        "A": "Their own private key",
+        "B": "Receiver's public key",
+        "C": "Receiver's private key",
+        "D": "Hash function"
+      },
+      "correct_option": "B",
+      "correct_answer": "Receiver's public key"
+    },
+    {
+      "srno": 110,
+      "question": "Which of these is considered a hashing algorithm?",
+      "options": {
+        "A": "RSA",
+        "B": "SHA-256",
+        "C": "AES",
+        "D": "ECC"
+      },
+      "correct_option": "B",
+      "correct_answer": "SHA-256"
+    },
+    {
+      "srno": 111,
+      "question": "The strength of asymmetric encryption lies in:",
+      "options": {
+        "A": "The use of one secret key",
+        "B": "Key length and complexity of mathematical problems",
+        "C": "Quick computation",
+        "D": "Compression algorithms"
+      },
+      "correct_option": "B",
+      "correct_answer": "Key length and complexity of mathematical problems"
+    },
+    {
+      "srno": 112,
+      "question": "What is the most common key length used in RSA today for secure communication?",
+      "options": {
+        "A": "128 bits",
+        "B": "256 bits",
+        "C": "512 bits",
+        "D": "2048 bits"
+      },
+      "correct_option": "D",
+      "correct_answer": "2048 bits"
+    },
+    {
+      "srno": 113,
+      "question": "What is a cryptographic nonce?",
+      "options": {
+        "A": "A hash algorithm",
+        "B": "A key management protocol",
+        "C": "A value used only once",
+        "D": "A public key"
+      },
+      "correct_option": "C",
+      "correct_answer": "A value used only once",
+      "original_options": {
+        "A": "A hash algorithm",
+        "B": "A key management protocol",
+        "C": "A one-time random number",
+        "D": "A public key"
+      },
+      "technical_note": "A nonce is not necessarily random; it is a value used only once or otherwise required not to repeat in the relevant context."
+    },
+    {
+      "srno": 114,
+      "question": "Which cipher is polyalphabetic in nature?",
+      "options": {
+        "A": "Caesar Cipher",
+        "B": "Monoalphabetic Cipher",
+        "C": "Vigenère Cipher",
+        "D": "Transposition Cipher"
+      },
+      "correct_option": "C",
+      "correct_answer": "Vigenère Cipher"
+    },
+    {
+      "srno": 115,
+      "question": "Which of the following is a disadvantage of symmetric key encryption?",
+      "options": {
+        "A": "Too slow",
+        "B": "Needs a secure key exchange mechanism",
+        "C": "Only used for digital signatures",
+        "D": "Keys are public"
+      },
+      "correct_option": "B",
+      "correct_answer": "Needs a secure key exchange mechanism"
+    },
+    {
+      "srno": 116,
+      "question": "What role do miners play in a blockchain?",
+      "options": {
+        "A": "Create new private keys",
+        "B": "Reverse transactions",
+        "C": "Validate and record transactions",
+        "D": "Generate digital signatures for users"
+      },
+      "correct_option": "C",
+      "correct_answer": "Validate and record transactions"
+    },
+    {
+      "srno": 117,
+      "question": "Which is not a feature of blockchain technology?",
+      "options": {
+        "A": "Decentralization",
+        "B": "Transparency",
+        "C": "Mutability",
+        "D": "Security"
+      },
+      "correct_option": "C",
+      "correct_answer": "Mutability"
+    },
+    {
+      "srno": 118,
+      "question": "Which part of a blockchain block contains the hash of the previous block?",
+      "options": {
+        "A": "Data",
+        "B": "Timestamp",
+        "C": "Nonce",
+        "D": "Block header"
+      },
+      "correct_option": "D",
+      "correct_answer": "Block header"
+    },
+    {
+      "srno": 119,
+      "question": "The term 'ledger' in blockchain refers to:",
+      "options": {
+        "A": "A mining device",
+        "B": "A cryptographic algorithm",
+        "C": "A record of all transactions",
+        "D": "A type of smart contract"
+      },
+      "correct_option": "C",
+      "correct_answer": "A record of all transactions"
+    },
+    {
+      "srno": 120,
+      "question": "What is the main purpose of blockchain consensus algorithms?",
+      "options": {
+        "A": "Encrypt data on the chain",
+        "B": "Improve network speed",
+        "C": "Ensure agreement on transaction validity",
+        "D": "Track wallet addresses"
+      },
+      "correct_option": "C",
+      "correct_answer": "Ensure agreement on transaction validity"
+    },
+    {
+      "srno": 121,
+      "question": "Which of the following provides both integrity and authentication?",
+      "options": {
+        "A": "Encryption",
+        "B": "Digital Signatures",
+        "C": "Caesar Cipher",
+        "D": "Hashing"
+      },
+      "correct_option": "B",
+      "correct_answer": "Digital Signatures"
+    },
+    {
+      "srno": 122,
+      "question": "What is a public key used for in digital signatures?",
+      "options": {
+        "A": "Encrypt the message",
+        "B": "Generate a nonce",
+        "C": "Verify the signature",
+        "D": "Hash the message"
+      },
+      "correct_option": "C",
+      "correct_answer": "Verify the signature"
+    },
+    {
+      "srno": 123,
+      "question": "Which one is a weakness of symmetric encryption?",
+      "options": {
+        "A": "Uses complex mathematics",
+        "B": "Public key is hard to store",
+        "C": "Secure key distribution is required",
+        "D": "Slower than asymmetric encryption"
+      },
+      "correct_option": "C",
+      "correct_answer": "Secure key distribution is required"
+    },
+    {
+      "srno": 124,
+      "question": "Which of these is a stream cipher?",
+      "options": {
+        "A": "DES",
+        "B": "AES",
+        "C": "RC4",
+        "D": "RSA"
+      },
+      "correct_option": "C",
+      "correct_answer": "RC4"
+    },
+    {
+      "srno": 125,
+      "question": "The key length of AES-256 is:",
+      "options": {
+        "A": "128 bits",
+        "B": "192 bits",
+        "C": "256 bits",
+        "D": "512 bits"
+      },
+      "correct_option": "C",
+      "correct_answer": "256 bits"
+    },
+    {
+      "srno": 126,
+      "question": "Which attack method tries every possible key?",
+      "options": {
+        "A": "Dictionary attack",
+        "B": "Chosen-ciphertext attack",
+        "C": "Brute-force attack",
+        "D": "Known-key attack"
+      },
+      "correct_option": "C",
+      "correct_answer": "Brute-force attack"
+    },
+    {
+      "srno": 127,
+      "question": "The one-time pad cipher is:",
+      "options": {
+        "A": "Unbreakable if used correctly",
+        "B": "An example of block cipher",
+        "C": "Symmetric and deterministic",
+        "D": "Obsolete and weak"
+      },
+      "correct_option": "A",
+      "correct_answer": "Unbreakable if used correctly"
+    },
+    {
+      "srno": 128,
+      "question": "What does HMAC stand for?",
+      "options": {
+        "A": "Hashed Message with Authentication Control",
+        "B": "Hash-Based Message Authentication Code",
+        "C": "Hybrid Message Authentication Cipher",
+        "D": "Hidden MAC Address Cipher"
+      },
+      "correct_option": "B",
+      "correct_answer": "Hash-Based Message Authentication Code",
+      "original_options": {
+        "A": "Hashed Message with Authentication Control",
+        "B": "Hashed Message Authentication Code",
+        "C": "Hybrid Message Authentication Cipher",
+        "D": "Hidden MAC Address Cipher"
+      },
+      "technical_note": "The supplied “Hashed Message Authentication Code” wording is corrected to the standard expansion."
+    },
+    {
+      "srno": 129,
+      "question": "Which property ensures that two different messages do not have the same hash?",
+      "options": {
+        "A": "Avalanche effect",
+        "B": "Collision resistance",
+        "C": "Key expansion",
+        "D": "Substitution"
+      },
+      "correct_option": "B",
+      "correct_answer": "Collision resistance"
+    },
+    {
+      "srno": 130,
+      "question": "Which cipher type relies on permutation of plaintext characters?",
+      "options": {
+        "A": "Caesar cipher",
+        "B": "Substitution cipher",
+        "C": "Transposition cipher",
+        "D": "Vigenère cipher"
+      },
+      "correct_option": "C",
+      "correct_answer": "Transposition cipher"
+    },
+    {
+      "srno": 131,
+      "question": "What does a node in a blockchain network do?",
+      "options": {
+        "A": "Mines coins only",
+        "B": "Stores a full or partial copy of the blockchain",
+        "C": "Encrypts wallets",
+        "D": "Deletes old blocks"
+      },
+      "correct_option": "B",
+      "correct_answer": "Stores a full or partial copy of the blockchain"
+    },
+    {
+      "srno": 132,
+      "question": "Which of the following is an example of a private blockchain?",
+      "options": {
+        "A": "Ethereum",
+        "B": "Bitcoin",
+        "C": "Ripple",
+        "D": "Hyperledger Fabric"
+      },
+      "correct_option": "D",
+      "correct_answer": "Hyperledger Fabric"
+    },
+    {
+      "srno": 133,
+      "question": "Which cryptographic concept does blockchain rely on for block linkage?",
+      "options": {
+        "A": "One-time pads",
+        "B": "Stream ciphers",
+        "C": "Hash functions",
+        "D": "Symmetric encryption"
+      },
+      "correct_option": "C",
+      "correct_answer": "Hash functions"
+    },
+    {
+      "srno": 134,
+      "question": "Smart contracts are typically deployed on:",
+      "options": {
+        "A": "Bitcoin",
+        "B": "Ethereum",
+        "C": "DES networks",
+        "D": "TLS layers"
+      },
+      "correct_option": "B",
+      "correct_answer": "Ethereum"
+    },
+    {
+      "srno": 135,
+      "question": "Which type of consensus algorithm is used by Bitcoin?",
+      "options": {
+        "A": "Proof of Stake",
+        "B": "Proof of Authority",
+        "C": "Proof of Work",
+        "D": "Practical Byzantine Fault Tolerance"
+      },
+      "correct_option": "C",
+      "correct_answer": "Proof of Work"
+    },
+    {
+      "srno": 136,
+      "question": "What is the primary purpose of cryptography in cybersecurity?",
+      "options": {
+        "A": "Increase network speed",
+        "B": "Protect data confidentiality and integrity",
+        "C": "Backup systems",
+        "D": "Disable malware"
+      },
+      "correct_option": "B",
+      "correct_answer": "Protect data confidentiality and integrity"
+    },
+    {
+      "srno": 137,
+      "question": "Which of these ciphers was widely used during World War II?",
+      "options": {
+        "A": "Vigenère Cipher",
+        "B": "Enigma",
+        "C": "Caesar Cipher",
+        "D": "Playfair Cipher"
+      },
+      "correct_option": "B",
+      "correct_answer": "Enigma",
+      "original_question": "Which of these ciphers was developed during World War II?",
+      "technical_note": "The original question used “developed during World War II”, but Enigma predates WWII. “Widely used during WWII” is historically accurate."
+    },
+    {
+      "srno": 138,
+      "question": "The Playfair Cipher encrypts text in:",
+      "options": {
+        "A": "Single letters",
+        "B": "Pairs of letters",
+        "C": "Binary format",
+        "D": "Triple letters"
+      },
+      "correct_option": "B",
+      "correct_answer": "Pairs of letters"
+    },
+    {
+      "srno": 139,
+      "question": "Which of the following is not a symmetric cipher?",
+      "options": {
+        "A": "Blowfish",
+        "B": "AES",
+        "C": "RSA",
+        "D": "DES"
+      },
+      "correct_option": "C",
+      "correct_answer": "RSA"
+    },
+    {
+      "srno": 140,
+      "question": "A digital signature can provide:",
+      "options": {
+        "A": "Confidentiality only",
+        "B": "Authentication only",
+        "C": "Integrity and non-repudiation",
+        "D": "Key distribution"
+      },
+      "correct_option": "C",
+      "correct_answer": "Integrity and non-repudiation"
+    },
+    {
+      "srno": 141,
+      "question": "What is the correct order of digital signature creation?",
+      "options": {
+        "A": "Sign → Hash → Send",
+        "B": "Hash → Sign → Send",
+        "C": "Encrypt → Hash → Sign",
+        "D": "Send → Sign → Hash"
+      },
+      "correct_option": "B",
+      "correct_answer": "Hash → Sign → Send"
+    },
+    {
+      "srno": 142,
+      "question": "Most common output size of the MD5 hash algorithm?",
+      "options": {
+        "A": "128 bits",
+        "B": "256 bits",
+        "C": "64 bits",
+        "D": "512 bits"
+      },
+      "correct_option": "A",
+      "correct_answer": "128 bits"
+    },
+    {
+      "srno": 143,
+      "question": "A known-plaintext attack assumes:",
+      "options": {
+        "A": "Access to ciphertext only",
+        "B": "Control over the encryption key",
+        "C": "Both plaintext and ciphertext are known",
+        "D": "Access to the decryption algorithm"
+      },
+      "correct_option": "C",
+      "correct_answer": "Both plaintext and ciphertext are known"
+    },
+    {
+      "srno": 144,
+      "question": "Which algorithm is considered insecure due to collision vulnerabilities?",
+      "options": {
+        "A": "SHA-256",
+        "B": "AES",
+        "C": "MD5",
+        "D": "RSA"
+      },
+      "correct_option": "C",
+      "correct_answer": "MD5"
+    },
+    {
+      "srno": 145,
+      "question": "Key escrow is a practice of:",
+      "options": {
+        "A": "Storing encrypted messages permanently",
+        "B": "Backing up private keys with a trusted third party",
+        "C": "Revoking digital certificates",
+        "D": "Generating symmetric keys"
+      },
+      "correct_option": "B",
+      "correct_answer": "Backing up private keys with a trusted third party"
+    },
+    {
+      "srno": 146,
+      "question": "In blockchain, a 'fork' typically refers to:",
+      "options": {
+        "A": "A loss of encryption keys",
+        "B": "A split in the chain due to consensus disagreement",
+        "C": "A broken cryptographic link",
+        "D": "A type of hashing algorithm"
+      },
+      "correct_option": "B",
+      "correct_answer": "A split in the chain due to consensus disagreement"
+    },
+    {
+      "srno": 147,
+      "question": "Which blockchain concept prevents double spending?",
+      "options": {
+        "A": "Hashing",
+        "B": "Nonces",
+        "C": "Consensus mechanisms",
+        "D": "Time-locks"
+      },
+      "correct_option": "C",
+      "correct_answer": "Consensus mechanisms"
+    },
+    {
+      "srno": 148,
+      "question": "Which of the following is true about block size in blockchain?",
+      "options": {
+        "A": "All blockchains have the same block size",
+        "B": "Block size affects transaction speed and capacity",
+        "C": "Block size is irrelevant",
+        "D": "It is used only in smart contracts"
+      },
+      "correct_option": "B",
+      "correct_answer": "Block size affects transaction speed and capacity"
+    },
+    {
+      "srno": 149,
+      "question": "In blockchain, a Merkle tree is used to:",
+      "options": {
+        "A": "Store private keys",
+        "B": "Verify large sets of data efficiently",
+        "C": "Generate wallet addresses",
+        "D": "Synchronize clocks"
+      },
+      "correct_option": "B",
+      "correct_answer": "Verify large sets of data efficiently"
+    },
+    {
+      "srno": 150,
+      "question": "What is a smart contract?",
+      "options": {
+        "A": "A legal contract stored offline",
+        "B": "A blockchain-based algorithm that enforces rules automatically",
+        "C": "A type of asymmetric encryption",
+        "D": "A password policy for blockchain wallets"
+      },
+      "correct_option": "B",
+      "correct_answer": "A blockchain-based algorithm that enforces rules automatically"
+    }
+  ],
+  "version": "final_corrected",
+  "verification_summary": {
+    "total_questions": 150,
+    "structurally_verified": true,
+    "corrections_applied": [
+      78,
+      83,
+      108,
+      113,
+      128,
+      137
+    ],
+    "other_existing_answer_selections": "Retained after recheck; no additional answer-selection corrections were identified."
+  },
+  "source_notes": "For the six corrected items, original_question/original_options preserve the supplied source wording, while question/options contain the corrected version."
+}
