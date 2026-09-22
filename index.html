@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="description" content="CipherBank — Cryptography &amp; Blockchain MCQ practice for BCA exam preparation. 150 questions, 4 study modes." />
+  <meta name="description" content="CipherBank — Data Science MCQ practice for BCA exam preparation. 172 questions, 4 study modes." />
   <meta name="theme-color" content="#101214" />
-  <title>CipherBank — Cryptography &amp; Blockchain MCQ</title>
+  <title>CipherBank — Data Science MCQ</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -52,7 +52,7 @@
         <header class="hero">
           <div class="hero-eyebrow">BCA Exam Preparation</div>
           <h1 class="hero-title"><span class="cipher">Cipher</span>Bank</h1>
-          <p class="hero-desc">Cryptography &amp; Blockchain MCQ practice for BCA exam preparation.</p>
+          <p class="hero-desc">Data Science MCQ practice for BCA exam preparation.</p>
         </header>
 
         <!-- Mode Menu -->
@@ -61,7 +61,7 @@
           <div class="modes-grid" role="list">
 
             <!-- Mode 1: Read All -->
-            <button class="mode-card" id="btn-mode-readall" role="listitem" aria-label="Read All Questions — Browse all 150 questions">
+            <button class="mode-card" id="btn-mode-readall" role="listitem" aria-label="Read All Questions — Browse all 172 questions">
               <div class="mode-icon" aria-hidden="true">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
@@ -70,7 +70,7 @@
               <div class="mode-body">
                 <div class="mode-tag">Mode 01</div>
                 <div class="mode-title">Read — All Questions</div>
-                <div class="mode-desc">Browse all 150 questions in one long scroll</div>
+                <div class="mode-desc">Browse all 172 questions in one long scroll</div>
               </div>
               <div class="mode-arrow" aria-hidden="true">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
@@ -95,7 +95,7 @@
             </button>
 
             <!-- Mode 3: Test -->
-            <button class="mode-card" id="btn-mode-test" role="listitem" aria-label="Test Mode — Sequential test with all 150 questions">
+            <button class="mode-card" id="btn-mode-test" role="listitem" aria-label="Test Mode — Sequential test with all 172 questions">
               <div class="mode-icon" aria-hidden="true">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
@@ -103,7 +103,7 @@
               </div>
               <div class="mode-body">
                 <div class="mode-tag">Mode 03</div>
-                <div class="mode-title">Test — 150 Questions</div>
+                <div class="mode-title">Test — 172 Questions</div>
                 <div class="mode-desc">Sequential test with immediate answer feedback</div>
               </div>
               <div class="mode-arrow" aria-hidden="true">
@@ -217,7 +217,7 @@
           <div class="test-stats" id="readone-stats" aria-live="polite" aria-atomic="true">
             <span class="test-stat">
               <span class="stat-val" id="readone-current">1</span>
-              <span>/ 150</span>
+              <span id="readone-total">/ 172</span>
             </span>
           </div>
           <div id="readone-card" aria-live="polite" aria-atomic="true">
@@ -235,7 +235,7 @@
             <span class="test-stat">
               <span class="text-mono" style="color:var(--text-tertiary)">Q</span>
               <span class="stat-val" id="test-current">1</span>
-              <span style="color:var(--text-tertiary)">/ 150</span>
+              <span style="color:var(--text-tertiary)" id="test-total">/ 172</span>
             </span>
             <span class="bottom-nav-divider" style="height:12px;margin:0 4px;"></span>
             <span class="test-stat">
@@ -336,7 +336,7 @@
       Prev
     </button>
     <div class="bottom-nav-divider" aria-hidden="true"></div>
-    <div class="bottom-nav-counter" id="nav-counter" aria-live="polite" aria-atomic="true">1 / 150</div>
+    <div class="bottom-nav-counter" id="nav-counter" aria-live="polite" aria-atomic="true">1 / 172</div>
     <div class="bottom-nav-divider" aria-hidden="true"></div>
     <button class="bottom-nav-btn" id="nav-next" aria-label="Next question">
       Next

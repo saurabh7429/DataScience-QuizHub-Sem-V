@@ -220,12 +220,12 @@
       "section_question_number": 1,
       "question": "What is the primary goal of Business Intelligence?",
       "options": {
-        "a": "Predicting future trends",
-        "b": "Monitoring and reporting historical data",
-        "c": "Developing machine learning algorithms",
-        "d": "Building predictive models"
+        "A": "Predicting future trends",
+        "B": "Monitoring and reporting historical data",
+        "C": "Developing machine learning algorithms",
+        "D": "Building predictive models"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Monitoring and reporting historical data"
     },
     {
@@ -235,12 +235,12 @@
       "section_question_number": 2,
       "question": "Which tool is commonly used in Data Science?",
       "options": {
-        "a": "Tableau",
-        "b": "Power BI",
-        "c": "Python",
-        "d": "SAP"
+        "A": "Tableau",
+        "B": "Power BI",
+        "C": "Python",
+        "D": "SAP"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Python"
     },
     {
@@ -250,12 +250,12 @@
       "section_question_number": 3,
       "question": "Business Intelligence focuses primarily on:",
       "options": {
-        "a": "Unstructured data analysis",
-        "b": "Prescriptive analytics",
-        "c": "Data visualization and dashboards",
-        "d": "Deep learning algorithms"
+        "A": "Unstructured data analysis",
+        "B": "Prescriptive analytics",
+        "C": "Data visualization and dashboards",
+        "D": "Deep learning algorithms"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Data visualization and dashboards"
     },
     {
@@ -265,12 +265,12 @@
       "section_question_number": 4,
       "question": "What is the key difference between BI and Data Science?",
       "options": {
-        "a": "BI is for the future, and Data Science focuses on the past",
-        "b": "BI uses AI, while Data Science uses SQL",
-        "c": "BI provides descriptive analytics, while Data Science offers predictive insights",
-        "d": "Both are identical in purpose"
+        "A": "BI is for the future, and Data Science focuses on the past",
+        "B": "BI uses AI, while Data Science uses SQL",
+        "C": "BI provides descriptive analytics, while Data Science offers predictive insights",
+        "D": "Both are identical in purpose"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "BI provides descriptive analytics, while Data Science offers predictive insights"
     },
     {
@@ -280,12 +280,12 @@
       "section_question_number": 5,
       "question": "Which of the following is a predictive analytics technique?",
       "options": {
-        "a": "KPI dashboards",
-        "b": "Time-series forecasting",
-        "c": "SQL querying",
-        "d": "Data visualization"
+        "A": "KPI dashboards",
+        "B": "Time-series forecasting",
+        "C": "SQL querying",
+        "D": "Data visualization"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Time-series forecasting"
     },
     {
@@ -295,12 +295,12 @@
       "section_question_number": 1,
       "question": "What is the first step in the Data Science process?",
       "options": {
-        "a": "Data Visualization",
-        "b": "Data Collection",
-        "c": "Data Modelling",
-        "d": "Model Evaluation"
+        "A": "Data Visualization",
+        "B": "Data Collection",
+        "C": "Data Modelling",
+        "D": "Model Evaluation"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Data Collection"
     },
     {
@@ -310,12 +310,12 @@
       "section_question_number": 2,
       "question": "Which of the following is NOT a part of Data Preparation?",
       "options": {
-        "a": "Handling missing values",
-        "b": "Normalization",
-        "c": "Model deployment",
-        "d": "Outlier detection"
+        "A": "Handling missing values",
+        "B": "Normalization",
+        "C": "Model deployment",
+        "D": "Outlier detection"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Model deployment"
     },
     {
@@ -325,12 +325,12 @@
       "section_question_number": 3,
       "question": "What is the primary goal of Exploratory Data Analysis (EDA)?",
       "options": {
-        "a": "Build predictive models",
-        "b": "Deploy machine learning models",
-        "c": "Identify patterns and trends in data",
-        "d": "Handle missing data"
+        "A": "Build predictive models",
+        "B": "Deploy machine learning models",
+        "C": "Identify patterns and trends in data",
+        "D": "Handle missing data"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Identify patterns and trends in data"
     },
     {
@@ -340,12 +340,12 @@
       "section_question_number": 4,
       "question": "Which of these tools is widely used for Data Modelling in Data Science?",
       "options": {
-        "a": "Power BI",
-        "b": "Scikit-learn",
-        "c": "Tableau",
-        "d": "SQL"
+        "A": "Power BI",
+        "B": "Scikit-learn",
+        "C": "Tableau",
+        "D": "SQL"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Scikit-learn"
     },
     {
@@ -355,12 +355,12 @@
       "section_question_number": 5,
       "question": "Which of the following is a metric used to evaluate a classification model?",
       "options": {
-        "a": "RMSE",
-        "b": "Precision",
-        "c": "Silhouette Score",
-        "d": "Variance"
+        "A": "RMSE",
+        "B": "Precision",
+        "C": "Silhouette Score",
+        "D": "Variance"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Precision",
       "technical_note": "Reworded to avoid implying that Precision is synonymous with the Accuracy metric; Precision is a valid classification metric."
     },
@@ -371,12 +371,12 @@
       "section_question_number": 6,
       "question": "What is the main objective of Data Visualization?",
       "options": {
-        "a": "Clean the data",
-        "b": "Communicate insights effectively",
-        "c": "Train machine learning models",
-        "d": "Collect raw data"
+        "A": "Clean the data",
+        "B": "Communicate insights effectively",
+        "C": "Train machine learning models",
+        "D": "Collect raw data"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Communicate insights effectively"
     },
     {
@@ -867,12 +867,12 @@
       "section_question_number": 1,
       "question": "What is the main purpose of Hadoop?",
       "options": {
-        "a": "To manage relational databases",
-        "b": "To process and store large datasets in a distributed manner",
-        "c": "To develop web applications",
-        "d": "To optimize network bandwidth"
+        "A": "To manage relational databases",
+        "B": "To process and store large datasets in a distributed manner",
+        "C": "To develop web applications",
+        "D": "To optimize network bandwidth"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "To process and store large datasets in a distributed manner"
     },
     {
@@ -882,12 +882,12 @@
       "section_question_number": 2,
       "question": "What is HDFS in Hadoop?",
       "options": {
-        "a": "High Distributed File System",
-        "b": "Hadoop Data File System",
-        "c": "Hadoop Distributed File System",
-        "d": "Hadoop Disk File System"
+        "A": "High Distributed File System",
+        "B": "Hadoop Data File System",
+        "C": "Hadoop Distributed File System",
+        "D": "Hadoop Disk File System"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Hadoop Distributed File System"
     },
     {
@@ -897,12 +897,12 @@
       "section_question_number": 3,
       "question": "Which of the following is NOT a component of Hadoop?",
       "options": {
-        "a": "HDFS",
-        "b": "MapReduce",
-        "c": "SQL Server",
-        "d": "YARN"
+        "A": "HDFS",
+        "B": "MapReduce",
+        "C": "SQL Server",
+        "D": "YARN"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "SQL Server"
     },
     {
@@ -912,12 +912,12 @@
       "section_question_number": 4,
       "question": "What does YARN stand for?",
       "options": {
-        "a": "Yet Another Resource Negotiator",
-        "b": "Your Advanced Resource Network",
-        "c": "Your Application Resource Network",
-        "d": "Yet Another Random Network"
+        "A": "Yet Another Resource Negotiator",
+        "B": "Your Advanced Resource Network",
+        "C": "Your Application Resource Network",
+        "D": "Yet Another Random Network"
       },
-      "correct_option": "a",
+      "correct_option": "A",
       "correct_answer": "Yet Another Resource Negotiator"
     },
     {
@@ -927,12 +927,12 @@
       "section_question_number": 5,
       "question": "What is the role of MapReduce in Hadoop?",
       "options": {
-        "a": "To store data",
-        "b": "To manage resources",
-        "c": "To process data in parallel",
-        "d": "To schedule tasks"
+        "A": "To store data",
+        "B": "To manage resources",
+        "C": "To process data in parallel",
+        "D": "To schedule tasks"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "To process data in parallel"
     },
     {
@@ -942,12 +942,12 @@
       "section_question_number": 6,
       "question": "How does Hadoop handle hardware failures?",
       "options": {
-        "a": "By restarting the system",
-        "b": "By replicating data across multiple nodes",
-        "c": "By shutting down the cluster",
-        "d": "By using expensive hardware"
+        "A": "By restarting the system",
+        "B": "By replicating data across multiple nodes",
+        "C": "By shutting down the cluster",
+        "D": "By using expensive hardware"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "By replicating data across multiple nodes"
     },
     {
@@ -957,12 +957,12 @@
       "section_question_number": 7,
       "question": "Which programming language is primarily used for Hadoop?",
       "options": {
-        "a": "Python",
-        "b": "Java",
-        "c": "C++",
-        "d": "PHP"
+        "A": "Python",
+        "B": "Java",
+        "C": "C++",
+        "D": "PHP"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Java"
     },
     {
@@ -972,12 +972,12 @@
       "section_question_number": 8,
       "question": "What is the default replication factor in HDFS?",
       "options": {
-        "a": "1",
-        "b": "2",
-        "c": "3",
-        "d": "4"
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "3"
     },
     {
@@ -987,12 +987,12 @@
       "section_question_number": 9,
       "question": "Which tool in the Hadoop ecosystem is used for SQL-like queries?",
       "options": {
-        "a": "Pig",
-        "b": "Hive",
-        "c": "Flume",
-        "d": "Sqoop"
+        "A": "Pig",
+        "B": "Hive",
+        "C": "Flume",
+        "D": "Sqoop"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Hive"
     },
     {
@@ -1002,12 +1002,12 @@
       "section_question_number": 10,
       "question": "What is the role of Zookeeper in the Hadoop ecosystem?",
       "options": {
-        "a": "Storing unstructured data",
-        "b": "Managing and coordinating distributed applications",
-        "c": "Importing data into HDFS",
-        "d": "Performing ETL operations"
+        "A": "Storing unstructured data",
+        "B": "Managing and coordinating distributed applications",
+        "C": "Importing data into HDFS",
+        "D": "Performing ETL operations"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Managing and coordinating distributed applications"
     },
     {
@@ -1017,12 +1017,12 @@
       "section_question_number": 1,
       "question": "What is the primary function of HDFS in Hadoop?",
       "options": {
-        "a": "To process data",
-        "b": "To store data in a distributed manner",
-        "c": "To query data",
-        "d": "To manage resources"
+        "A": "To process data",
+        "B": "To store data in a distributed manner",
+        "C": "To query data",
+        "D": "To manage resources"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "To store data in a distributed manner"
     },
     {
@@ -1032,12 +1032,12 @@
       "section_question_number": 2,
       "question": "What is the responsibility of the NameNode in HDFS?",
       "options": {
-        "a": "Store data blocks",
-        "b": "Manage metadata and block locations",
-        "c": "Schedule jobs in the cluster",
-        "d": "Monitor resource usage"
+        "A": "Store data blocks",
+        "B": "Manage metadata and block locations",
+        "C": "Schedule jobs in the cluster",
+        "D": "Monitor resource usage"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Manage metadata and block locations"
     },
     {
@@ -1047,12 +1047,12 @@
       "section_question_number": 3,
       "question": "Which component is responsible for resource allocation in YARN?",
       "options": {
-        "a": "DataNode",
-        "b": "ResourceManager",
-        "c": "NameNode",
-        "d": "NodeManager"
+        "A": "DataNode",
+        "B": "ResourceManager",
+        "C": "NameNode",
+        "D": "NodeManager"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "ResourceManager"
     },
     {
@@ -1062,12 +1062,12 @@
       "section_question_number": 4,
       "question": "What are the two phases of a MapReduce job?",
       "options": {
-        "a": "Store and Process",
-        "b": "Map and Reduce",
-        "c": "Fetch and Aggregate",
-        "d": "Query and Execute"
+        "A": "Store and Process",
+        "B": "Map and Reduce",
+        "C": "Fetch and Aggregate",
+        "D": "Query and Execute"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Map and Reduce"
     },
     {
@@ -1077,12 +1077,12 @@
       "section_question_number": 5,
       "question": "Which tool in the Hadoop ecosystem is used for real-time data processing?",
       "options": {
-        "a": "Sqoop",
-        "b": "Spark",
-        "c": "Pig",
-        "d": "Hive"
+        "A": "Sqoop",
+        "B": "Spark",
+        "C": "Pig",
+        "D": "Hive"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Spark"
     },
     {
@@ -1092,12 +1092,12 @@
       "section_question_number": 6,
       "question": "What is a typical HDFS block size used in modern Hadoop?",
       "options": {
-        "a": "32MB",
-        "b": "64MB",
-        "c": "128MB",
-        "d": "256MB"
+        "A": "32MB",
+        "B": "64MB",
+        "C": "128MB",
+        "D": "256MB"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "128MB",
       "technical_note": "Reworded from \"default\" to \"typical\" because HDFS block size is configurable; Apache Hadoop documentation describes 128 MB as a typical block size."
     },
@@ -1108,12 +1108,12 @@
       "section_question_number": 7,
       "question": "Which Hadoop ecosystem component is used for machine learning?",
       "options": {
-        "a": "Flume",
-        "b": "Mahout",
-        "c": "Hive",
-        "d": "HBase"
+        "A": "Flume",
+        "B": "Mahout",
+        "C": "Hive",
+        "D": "HBase"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Mahout"
     },
     {
@@ -1123,12 +1123,12 @@
       "section_question_number": 8,
       "question": "Which of the following tools is used for importing and exporting data in Hadoop?",
       "options": {
-        "a": "Hive",
-        "b": "Pig",
-        "c": "Sqoop",
-        "d": "Flume"
+        "A": "Hive",
+        "B": "Pig",
+        "C": "Sqoop",
+        "D": "Flume"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Sqoop"
     },
     {
@@ -1138,12 +1138,12 @@
       "section_question_number": 9,
       "question": "In the Hadoop architecture, which node performs data storage tasks?",
       "options": {
-        "a": "NameNode",
-        "b": "DataNode",
-        "c": "ResourceManager",
-        "d": "NodeManager"
+        "A": "NameNode",
+        "B": "DataNode",
+        "C": "ResourceManager",
+        "D": "NodeManager"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "DataNode"
     },
     {
@@ -1153,12 +1153,12 @@
       "section_question_number": 10,
       "question": "What is the role of Zookeeper in the Hadoop ecosystem?",
       "options": {
-        "a": "Data storage",
-        "b": "Log management",
-        "c": "Coordination and synchronization",
-        "d": "Machine learning"
+        "A": "Data storage",
+        "B": "Log management",
+        "C": "Coordination and synchronization",
+        "D": "Machine learning"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Coordination and synchronization"
     },
     {
@@ -1168,12 +1168,12 @@
       "section_question_number": 1,
       "question": "Which Hadoop tool provides SQL-like querying capabilities?",
       "options": {
-        "a": "Pig",
-        "b": "Hive",
-        "c": "Sqoop",
-        "d": "Oozie"
+        "A": "Pig",
+        "B": "Hive",
+        "C": "Sqoop",
+        "D": "Oozie"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Hive"
     },
     {
@@ -1183,12 +1183,12 @@
       "section_question_number": 2,
       "question": "What is the purpose of HBase in the Hadoop ecosystem?",
       "options": {
-        "a": "To process data in real-time",
-        "b": "To provide NoSQL database storage",
-        "c": "To collect log data",
-        "d": "To manage workflows"
+        "A": "To process data in real-time",
+        "B": "To provide NoSQL database storage",
+        "C": "To collect log data",
+        "D": "To manage workflows"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "To provide NoSQL database storage"
     },
     {
@@ -1198,12 +1198,12 @@
       "section_question_number": 3,
       "question": "Which component is used for data import/export between Hadoop and relational databases?",
       "options": {
-        "a": "Flume",
-        "b": "Sqoop",
-        "c": "Spark",
-        "d": "Mahout"
+        "A": "Flume",
+        "B": "Sqoop",
+        "C": "Spark",
+        "D": "Mahout"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Sqoop"
     },
     {
@@ -1213,12 +1213,12 @@
       "section_question_number": 4,
       "question": "What is the main use of Flume in the Hadoop ecosystem?",
       "options": {
-        "a": "To manage workflows",
-        "b": "To process structured data",
-        "c": "To collect and move log data",
-        "d": "To provide SQL queries"
+        "A": "To manage workflows",
+        "B": "To process structured data",
+        "C": "To collect and move log data",
+        "D": "To provide SQL queries"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "To collect and move log data"
     },
     {
@@ -1228,12 +1228,12 @@
       "section_question_number": 5,
       "question": "Which of the following is a workflow management tool in Hadoop?",
       "options": {
-        "a": "Zookeeper",
-        "b": "Oozie",
-        "c": "Pig",
-        "d": "Hive"
+        "A": "Zookeeper",
+        "B": "Oozie",
+        "C": "Pig",
+        "D": "Hive"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Oozie"
     },
     {
@@ -1243,12 +1243,12 @@
       "section_question_number": 6,
       "question": "Which of the following is a key feature of Spark in the Hadoop ecosystem?",
       "options": {
-        "a": "Data storage",
-        "b": "Batch processing",
-        "c": "In-memory data processing",
-        "d": "Real-time log collection"
+        "A": "Data storage",
+        "B": "Batch processing",
+        "C": "In-memory data processing",
+        "D": "Real-time log collection"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "In-memory data processing",
       "technical_note": "Reworded because Spark is a distributed processing engine; in-memory processing/caching is an important capability rather than its whole primary function."
     },
@@ -1259,12 +1259,12 @@
       "section_question_number": 7,
       "question": "Which tool is used for machine learning tasks in Hadoop?",
       "options": {
-        "a": "Oozie",
-        "b": "Mahout",
-        "c": "Hive",
-        "d": "Sqoop"
+        "A": "Oozie",
+        "B": "Mahout",
+        "C": "Hive",
+        "D": "Sqoop"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Mahout"
     },
     {
@@ -1274,12 +1274,12 @@
       "section_question_number": 8,
       "question": "What does Zookeeper provide in the Hadoop ecosystem?",
       "options": {
-        "a": "Data synchronization and coordination",
-        "b": "SQL-like querying",
-        "c": "Real-time data streaming",
-        "d": "Workflow scheduling"
+        "A": "Data synchronization and coordination",
+        "B": "SQL-like querying",
+        "C": "Real-time data streaming",
+        "D": "Workflow scheduling"
       },
-      "correct_option": "a",
+      "correct_option": "A",
       "correct_answer": "Data synchronization and coordination"
     },
     {
@@ -1289,12 +1289,12 @@
       "section_question_number": 9,
       "question": "Which component handles the streaming of real-time data in Hadoop?",
       "options": {
-        "a": "Kafka",
-        "b": "Pig",
-        "c": "Hive",
-        "d": "Spark"
+        "A": "Kafka",
+        "B": "Pig",
+        "C": "Hive",
+        "D": "Spark"
       },
-      "correct_option": "a",
+      "correct_option": "A",
       "correct_answer": "Kafka"
     },
     {
@@ -1304,12 +1304,12 @@
       "section_question_number": 10,
       "question": "Which tool in the Hadoop ecosystem supports large-scale graph processing?",
       "options": {
-        "a": "Hive",
-        "b": "Spark",
-        "c": "HBase",
-        "d": "Flume"
+        "A": "Hive",
+        "B": "Spark",
+        "C": "HBase",
+        "D": "Flume"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Spark",
       "technical_note": "Reworded to avoid subjective \"ideal\" language; Spark supports graph processing through its graph-processing capabilities."
     },
@@ -1320,12 +1320,12 @@
       "section_question_number": 1,
       "question": "What is the main purpose of MapReduce?",
       "options": {
-        "a": "To store large datasets",
-        "b": "To process large datasets in a distributed manner",
-        "c": "To query relational databases",
-        "d": "To synchronize distributed systems"
+        "A": "To store large datasets",
+        "B": "To process large datasets in a distributed manner",
+        "C": "To query relational databases",
+        "D": "To synchronize distributed systems"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "To process large datasets in a distributed manner"
     },
     {
@@ -1335,12 +1335,12 @@
       "section_question_number": 2,
       "question": "What does the Mapper in MapReduce do?",
       "options": {
-        "a": "Aggregates intermediate results",
-        "b": "Processes input data to produce key-value pairs",
-        "c": "Sorts key-value pairs",
-        "d": "Stores final output"
+        "A": "Aggregates intermediate results",
+        "B": "Processes input data to produce key-value pairs",
+        "C": "Sorts key-value pairs",
+        "D": "Stores final output"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Processes input data to produce key-value pairs"
     },
     {
@@ -1350,12 +1350,12 @@
       "section_question_number": 3,
       "question": "What is the role of the Reducer in MapReduce?",
       "options": {
-        "a": "To split input data",
-        "b": "To store intermediate data",
-        "c": "To aggregate and summarize key-value pairs",
-        "d": "To manage resources"
+        "A": "To split input data",
+        "B": "To store intermediate data",
+        "C": "To aggregate and summarize key-value pairs",
+        "D": "To manage resources"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "To aggregate and summarize key-value pairs"
     },
     {
@@ -1365,12 +1365,12 @@
       "section_question_number": 4,
       "question": "What phase in MapReduce organizes key-value pairs by key?",
       "options": {
-        "a": "Map phase",
-        "b": "Shuffle and Sort phase",
-        "c": "Reduce phase",
-        "d": "Input phase"
+        "A": "Map phase",
+        "B": "Shuffle and Sort phase",
+        "C": "Reduce phase",
+        "D": "Input phase"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Shuffle and Sort phase"
     },
     {
@@ -1380,12 +1380,12 @@
       "section_question_number": 5,
       "question": "Which of the following is NOT a part of the MapReduce framework?",
       "options": {
-        "a": "Mapper",
-        "b": "Reducer",
-        "c": "NameNode",
-        "d": "Combiner"
+        "A": "Mapper",
+        "B": "Reducer",
+        "C": "NameNode",
+        "D": "Combiner"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "NameNode"
     },
     {
@@ -1395,12 +1395,12 @@
       "section_question_number": 6,
       "question": "What is the Combiner used for in MapReduce?",
       "options": {
-        "a": "To split the input data",
-        "b": "To reduce the amount of data transferred to the Reducer",
-        "c": "To replicate data across nodes",
-        "d": "To sort intermediate data"
+        "A": "To split the input data",
+        "B": "To reduce the amount of data transferred to the Reducer",
+        "C": "To replicate data across nodes",
+        "D": "To sort intermediate data"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "To reduce the amount of data transferred to the Reducer"
     },
     {
@@ -1410,12 +1410,12 @@
       "section_question_number": 7,
       "question": "Which of the following describes the output of the Map phase?",
       "options": {
-        "a": "Key-value pairs organized by key",
-        "b": "Final aggregated results",
-        "c": "Raw input data",
-        "d": "Intermediate key-value pairs"
+        "A": "Key-value pairs organized by key",
+        "B": "Final aggregated results",
+        "C": "Raw input data",
+        "D": "Intermediate key-value pairs"
       },
-      "correct_option": "d",
+      "correct_option": "D",
       "correct_answer": "Intermediate key-value pairs"
     },
     {
@@ -1425,12 +1425,12 @@
       "section_question_number": 8,
       "question": "In MapReduce, what is the default number of Reducers?",
       "options": {
-        "a": "1",
-        "b": "2",
-        "c": "4",
-        "d": "Depends on the cluster size"
+        "A": "1",
+        "B": "2",
+        "C": "4",
+        "D": "Depends on the cluster size"
       },
-      "correct_option": "a",
+      "correct_option": "A",
       "correct_answer": "1"
     },
     {
@@ -1440,12 +1440,12 @@
       "section_question_number": 9,
       "question": "What type of tasks can MapReduce efficiently handle?",
       "options": {
-        "a": "Real-time data processing",
-        "b": "Small-scale dataset processing",
-        "c": "Batch processing of large-scale datasets",
-        "d": "Graphical user interface tasks"
+        "A": "Real-time data processing",
+        "B": "Small-scale dataset processing",
+        "C": "Batch processing of large-scale datasets",
+        "D": "Graphical user interface tasks"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Batch processing of large-scale datasets"
     },
     {
@@ -1455,12 +1455,12 @@
       "section_question_number": 10,
       "question": "Which Hadoop component provides resource management and scheduling support for MapReduce jobs?",
       "options": {
-        "a": "YARN",
-        "b": "HDFS",
-        "c": "NameNode",
-        "d": "Hive"
+        "A": "YARN",
+        "B": "HDFS",
+        "C": "NameNode",
+        "D": "Hive"
       },
-      "correct_option": "a",
+      "correct_option": "A",
       "correct_answer": "YARN",
       "technical_note": "Clarified the high-level YARN role; application-level task scheduling is coordinated by the MapReduce ApplicationMaster while YARN manages cluster resources."
     },
@@ -1471,12 +1471,12 @@
       "section_question_number": 1,
       "question": "What is the primary function of HDFS?",
       "options": {
-        "a": "To process data in real-time",
-        "b": "To store large datasets in a distributed manner",
-        "c": "To manage relational databases",
-        "d": "To schedule tasks in Hadoop"
+        "A": "To process data in real-time",
+        "B": "To store large datasets in a distributed manner",
+        "C": "To manage relational databases",
+        "D": "To schedule tasks in Hadoop"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "To store large datasets in a distributed manner"
     },
     {
@@ -1486,12 +1486,12 @@
       "section_question_number": 2,
       "question": "Which component of HDFS manages metadata?",
       "options": {
-        "a": "DataNode",
-        "b": "NameNode",
-        "c": "Secondary NameNode",
-        "d": "ResourceManager"
+        "A": "DataNode",
+        "B": "NameNode",
+        "C": "Secondary NameNode",
+        "D": "ResourceManager"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "NameNode"
     },
     {
@@ -1501,12 +1501,12 @@
       "section_question_number": 3,
       "question": "What is the default block size in HDFS?",
       "options": {
-        "a": "64MB",
-        "b": "128MB",
-        "c": "256MB",
-        "d": "512MB"
+        "A": "64MB",
+        "B": "128MB",
+        "C": "256MB",
+        "D": "512MB"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "128MB"
     },
     {
@@ -1516,12 +1516,12 @@
       "section_question_number": 4,
       "question": "What does the Secondary NameNode do?",
       "options": {
-        "a": "Replaces the NameNode in case of failure",
-        "b": "Stores actual data blocks",
-        "c": "Periodically merges and checkpoints metadata",
-        "d": "Manages task scheduling"
+        "A": "Replaces the NameNode in case of failure",
+        "B": "Stores actual data blocks",
+        "C": "Periodically merges and checkpoints metadata",
+        "D": "Manages task scheduling"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Periodically merges and checkpoints metadata"
     },
     {
@@ -1531,12 +1531,12 @@
       "section_question_number": 5,
       "question": "How does HDFS ensure fault tolerance?",
       "options": {
-        "a": "By using expensive hardware",
-        "b": "By replicating data blocks across multiple nodes",
-        "c": "By compressing data",
-        "d": "By storing all data on a single node"
+        "A": "By using expensive hardware",
+        "B": "By replicating data blocks across multiple nodes",
+        "C": "By compressing data",
+        "D": "By storing all data on a single node"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "By replicating data blocks across multiple nodes"
     },
     {
@@ -1546,12 +1546,12 @@
       "section_question_number": 6,
       "question": "What is the default replication factor in HDFS?",
       "options": {
-        "a": "1",
-        "b": "2",
-        "c": "3",
-        "d": "4"
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "3"
     },
     {
@@ -1561,12 +1561,12 @@
       "section_question_number": 7,
       "question": "Which of the following is NOT a characteristic of HDFS?",
       "options": {
-        "a": "Write Once, Read Many",
-        "b": "Real-time data updates",
-        "c": "Fault tolerance",
-        "d": "Distributed storage"
+        "A": "Write Once, Read Many",
+        "B": "Real-time data updates",
+        "C": "Fault tolerance",
+        "D": "Distributed storage"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Real-time data updates"
     },
     {
@@ -1576,12 +1576,12 @@
       "section_question_number": 8,
       "question": "What happens if a DataNode fails in HDFS?",
       "options": {
-        "a": "The system shuts down.",
-        "b": "Data is lost permanently.",
-        "c": "Data is retrieved from replicated blocks on other nodes.",
-        "d": "The NameNode fails."
+        "A": "The system shuts down.",
+        "B": "Data is lost permanently.",
+        "C": "Data is retrieved from replicated blocks on other nodes.",
+        "D": "The NameNode fails."
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Data is retrieved from replicated blocks on other nodes."
     },
     {
@@ -1591,12 +1591,12 @@
       "section_question_number": 9,
       "question": "Which node in HDFS stores actual data?",
       "options": {
-        "a": "NameNode",
-        "b": "DataNode",
-        "c": "Secondary NameNode",
-        "d": "ResourceManager"
+        "A": "NameNode",
+        "B": "DataNode",
+        "C": "Secondary NameNode",
+        "D": "ResourceManager"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "DataNode"
     },
     {
@@ -1606,12 +1606,12 @@
       "section_question_number": 1,
       "question": "What is the primary function of YARN in Hadoop?",
       "options": {
-        "a": "Data storage",
-        "b": "Resource management and task scheduling",
-        "c": "Query execution",
-        "d": "Metadata management"
+        "A": "Data storage",
+        "B": "Resource management and task scheduling",
+        "C": "Query execution",
+        "D": "Metadata management"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Resource management and task scheduling"
     },
     {
@@ -1621,12 +1621,12 @@
       "section_question_number": 2,
       "question": "Which component of YARN manages resources on individual nodes?",
       "options": {
-        "a": "ResourceManager",
-        "b": "NodeManager",
-        "c": "ApplicationMaster",
-        "d": "NameNode"
+        "A": "ResourceManager",
+        "B": "NodeManager",
+        "C": "ApplicationMaster",
+        "D": "NameNode"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "NodeManager"
     },
     {
@@ -1636,12 +1636,12 @@
       "section_question_number": 3,
       "question": "What is a container in YARN?",
       "options": {
-        "a": "A storage unit for data blocks",
-        "b": "A unit of resource allocation for tasks",
-        "c": "A metadata storage component",
-        "d": "A backup for the ResourceManager"
+        "A": "A storage unit for data blocks",
+        "B": "A unit of resource allocation for tasks",
+        "C": "A metadata storage component",
+        "D": "A backup for the ResourceManager"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "A unit of resource allocation for tasks"
     },
     {
@@ -1651,12 +1651,12 @@
       "section_question_number": 4,
       "question": "What is the role of the ResourceManager in YARN?",
       "options": {
-        "a": "To execute MapReduce jobs",
-        "b": "To manage resources across the cluster",
-        "c": "To store data blocks",
-        "d": "To monitor tasks on individual nodes"
+        "A": "To execute MapReduce jobs",
+        "B": "To manage resources across the cluster",
+        "C": "To store data blocks",
+        "D": "To monitor tasks on individual nodes"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "To manage resources across the cluster"
     },
     {
@@ -1666,12 +1666,12 @@
       "section_question_number": 5,
       "question": "Which YARN component manages the lifecycle of an application?",
       "options": {
-        "a": "NodeManager",
-        "b": "ApplicationMaster",
-        "c": "ResourceManager",
-        "d": "TaskTracker"
+        "A": "NodeManager",
+        "B": "ApplicationMaster",
+        "C": "ResourceManager",
+        "D": "TaskTracker"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "ApplicationMaster"
     },
     {
@@ -1681,12 +1681,12 @@
       "section_question_number": 6,
       "question": "What happens if the NodeManager fails?",
       "options": {
-        "a": "The cluster shuts down.",
-        "b": "Tasks on the node are rescheduled on other nodes.",
-        "c": "The ResourceManager fails.",
-        "d": "All running applications stop."
+        "A": "The cluster shuts down.",
+        "B": "Tasks on the node are rescheduled on other nodes.",
+        "C": "The ResourceManager fails.",
+        "D": "All running applications stop."
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Tasks on the node are rescheduled on other nodes."
     },
     {
@@ -1696,12 +1696,12 @@
       "section_question_number": 7,
       "question": "Which of the following is NOT a feature of YARN?",
       "options": {
-        "a": "Fault tolerance",
-        "b": "Data replication",
-        "c": "Multi-tenancy",
-        "d": "Scalability"
+        "A": "Fault tolerance",
+        "B": "Data replication",
+        "C": "Multi-tenancy",
+        "D": "Scalability"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Data replication"
     },
     {
@@ -1711,12 +1711,12 @@
       "section_question_number": 8,
       "question": "What does YARN allocate to applications for execution?",
       "options": {
-        "a": "Data blocks",
-        "b": "Metadata",
-        "c": "Containers",
-        "d": "Files"
+        "A": "Data blocks",
+        "B": "Metadata",
+        "C": "Containers",
+        "D": "Files"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Containers"
     },
     {
@@ -1726,12 +1726,12 @@
       "section_question_number": 9,
       "question": "How does YARN improve resource utilization?",
       "options": {
-        "a": "By pre-allocating fixed resources to tasks",
-        "b": "By dynamically allocating resources based on demand",
-        "c": "By shutting down idle nodes",
-        "d": "By duplicating tasks on multiple nodes"
+        "A": "By pre-allocating fixed resources to tasks",
+        "B": "By dynamically allocating resources based on demand",
+        "C": "By shutting down idle nodes",
+        "D": "By duplicating tasks on multiple nodes"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "By dynamically allocating resources based on demand"
     },
     {
@@ -1741,12 +1741,12 @@
       "section_question_number": 10,
       "question": "Which processing frameworks can run on YARN?",
       "options": {
-        "a": "Only MapReduce",
-        "b": "Only Spark",
-        "c": "Any framework designed for distributed processing",
-        "d": "Only Hive and Pig"
+        "A": "Only MapReduce",
+        "B": "Only Spark",
+        "C": "Any framework designed for distributed processing",
+        "D": "Only Hive and Pig"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Any framework designed for distributed processing"
     },
     {
@@ -1756,12 +1756,12 @@
       "section_question_number": 1,
       "question": "Which database is based on a table structure of rows and columns?",
       "options": {
-        "a": "NoSQL Database",
-        "b": "Relational Database",
-        "c": "Hierarchical Database",
-        "d": "Object-Oriented Database"
+        "A": "NoSQL Database",
+        "B": "Relational Database",
+        "C": "Hierarchical Database",
+        "D": "Object-Oriented Database"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Relational Database"
     },
     {
@@ -1771,12 +1771,12 @@
       "section_question_number": 2,
       "question": "MongoDB is an example of which type of database?",
       "options": {
-        "a": "Relational Database",
-        "b": "Hierarchical Database",
-        "c": "NoSQL Database",
-        "d": "Network Database"
+        "A": "Relational Database",
+        "B": "Hierarchical Database",
+        "C": "NoSQL Database",
+        "D": "Network Database"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "NoSQL Database"
     },
     {
@@ -1786,12 +1786,12 @@
       "section_question_number": 3,
       "question": "Which type of database is best suited for handling relationships in social networks?",
       "options": {
-        "a": "Hierarchical Database",
-        "b": "Graph Database",
-        "c": "Relational Database",
-        "d": "Object-Oriented Database"
+        "A": "Hierarchical Database",
+        "B": "Graph Database",
+        "C": "Relational Database",
+        "D": "Object-Oriented Database"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Graph Database"
     },
     {
@@ -1801,12 +1801,12 @@
       "section_question_number": 4,
       "question": "What is the primary feature of a distributed database?",
       "options": {
-        "a": "Data stored in a tree structure",
-        "b": "Data stored in a centralized location",
-        "c": "Data distributed across multiple systems",
-        "d": "Data stored as objects"
+        "A": "Data stored in a tree structure",
+        "B": "Data stored in a centralized location",
+        "C": "Data distributed across multiple systems",
+        "D": "Data stored as objects"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Data distributed across multiple systems"
     },
     {
@@ -1816,12 +1816,12 @@
       "section_question_number": 5,
       "question": "AWS RDS is an example of a:",
       "options": {
-        "a": "Relational Database",
-        "b": "Cloud Database",
-        "c": "Hierarchical Database",
-        "d": "Network Database"
+        "A": "Relational Database",
+        "B": "Cloud Database",
+        "C": "Hierarchical Database",
+        "D": "Network Database"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Cloud Database"
     },
     {
@@ -1831,12 +1831,12 @@
       "section_question_number": 1,
       "question": "Which of the following best describes NoSQL databases?",
       "options": {
-        "a": "They store data only in relational tables.",
-        "b": "They provide support for unstructured or semi-structured data.",
-        "c": "They are always slower than relational databases.",
-        "d": "They cannot scale horizontally."
+        "A": "They store data only in relational tables.",
+        "B": "They provide support for unstructured or semi-structured data.",
+        "C": "They are always slower than relational databases.",
+        "D": "They cannot scale horizontally."
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "They provide support for unstructured or semi-structured data."
     },
     {
@@ -1846,12 +1846,12 @@
       "section_question_number": 2,
       "question": "Which type of NoSQL database is optimized for managing relationships between data?",
       "options": {
-        "a": "Document Store",
-        "b": "Key-Value Store",
-        "c": "Graph Database",
-        "d": "Column-Family Store"
+        "A": "Document Store",
+        "B": "Key-Value Store",
+        "C": "Graph Database",
+        "D": "Column-Family Store"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Graph Database"
     },
     {
@@ -1861,12 +1861,12 @@
       "section_question_number": 3,
       "question": "MongoDB is an example of which type of NoSQL database?",
       "options": {
-        "a": "Key-Value Store",
-        "b": "Document Store",
-        "c": "Column-Family Store",
-        "d": "Graph Database"
+        "A": "Key-Value Store",
+        "B": "Document Store",
+        "C": "Column-Family Store",
+        "D": "Graph Database"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Document Store"
     },
     {
@@ -1876,12 +1876,12 @@
       "section_question_number": 4,
       "question": "Which of the following is a feature of NoSQL databases?",
       "options": {
-        "a": "Fixed schema",
-        "b": "Vertical scaling",
-        "c": "Support for distributed data",
-        "d": "Mandatory use of SQL"
+        "A": "Fixed schema",
+        "B": "Vertical scaling",
+        "C": "Support for distributed data",
+        "D": "Mandatory use of SQL"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Support for distributed data"
     },
     {
@@ -1891,12 +1891,12 @@
       "section_question_number": 5,
       "question": "Cassandra is an example of which type of NoSQL database?",
       "options": {
-        "a": "Document Store",
-        "b": "Key-Value Store",
-        "c": "Graph Database",
-        "d": "Column-Family Store"
+        "A": "Document Store",
+        "B": "Key-Value Store",
+        "C": "Graph Database",
+        "D": "Column-Family Store"
       },
-      "correct_option": "d",
+      "correct_option": "D",
       "correct_answer": "Column-Family Store"
     },
     {
@@ -1906,12 +1906,12 @@
       "section_question_number": 1,
       "question": "Why are NoSQL databases preferred for handling big data?",
       "options": {
-        "a": "They use fixed schemas.",
-        "b": "They support structured data only.",
-        "c": "They can process large volumes of unstructured data.",
-        "d": "They cannot scale horizontally."
+        "A": "They use fixed schemas.",
+        "B": "They support structured data only.",
+        "C": "They can process large volumes of unstructured data.",
+        "D": "They cannot scale horizontally."
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "They can process large volumes of unstructured data."
     },
     {
@@ -1921,12 +1921,12 @@
       "section_question_number": 2,
       "question": "What makes NoSQL databases more flexible compared to relational databases?",
       "options": {
-        "a": "Fixed table structures",
-        "b": "Schema-less data modeling",
-        "c": "Use of SQL for queries",
-        "d": "Vertical scalability"
+        "A": "Fixed table structures",
+        "B": "Schema-less data modeling",
+        "C": "Use of SQL for queries",
+        "D": "Vertical scalability"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Schema-less data modeling"
     },
     {
@@ -1936,12 +1936,12 @@
       "section_question_number": 3,
       "question": "What type of scalability is a key feature of NoSQL databases?",
       "options": {
-        "a": "Vertical scalability",
-        "b": "Horizontal scalability",
-        "c": "Static scalability",
-        "d": "Single-node scalability"
+        "A": "Vertical scalability",
+        "B": "Horizontal scalability",
+        "C": "Static scalability",
+        "D": "Single-node scalability"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Horizontal scalability"
     },
     {
@@ -1951,12 +1951,12 @@
       "section_question_number": 4,
       "question": "Which of the following is NOT a reason for using NoSQL databases?",
       "options": {
-        "a": "Handling unstructured data",
-        "b": "Cost-effective scalability",
-        "c": "Fixed schema requirement",
-        "d": "Support for distributed systems"
+        "A": "Handling unstructured data",
+        "B": "Cost-effective scalability",
+        "C": "Fixed schema requirement",
+        "D": "Support for distributed systems"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Fixed schema requirement"
     },
     {
@@ -1966,12 +1966,12 @@
       "section_question_number": 5,
       "question": "For real-time applications requiring high-speed data access, which type of database is suitable?",
       "options": {
-        "a": "Relational databases",
-        "b": "NoSQL databases",
-        "c": "File-based systems",
-        "d": "Hierarchical databases"
+        "A": "Relational databases",
+        "B": "NoSQL databases",
+        "C": "File-based systems",
+        "D": "Hierarchical databases"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "NoSQL databases"
     },
     {
@@ -1981,12 +1981,12 @@
       "section_question_number": 1,
       "question": "What is the main advantage of NoSQL databases in terms of scalability?",
       "options": {
-        "a": "Vertical scaling",
-        "b": "Horizontal scaling",
-        "c": "Limited scaling",
-        "d": "No scaling"
+        "A": "Vertical scaling",
+        "B": "Horizontal scaling",
+        "C": "Limited scaling",
+        "D": "No scaling"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Horizontal scaling"
     },
     {
@@ -1996,12 +1996,12 @@
       "section_question_number": 2,
       "question": "Which of the following data types can NoSQL databases handle?",
       "options": {
-        "a": "Structured data only",
-        "b": "Unstructured data only",
-        "c": "Structured, semi-structured, and unstructured data",
-        "d": "Only tabular data"
+        "A": "Structured data only",
+        "B": "Unstructured data only",
+        "C": "Structured, semi-structured, and unstructured data",
+        "D": "Only tabular data"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Structured, semi-structured, and unstructured data"
     },
     {
@@ -2011,12 +2011,12 @@
       "section_question_number": 3,
       "question": "Why can some NoSQL databases be suitable for real-time applications?",
       "options": {
-        "a": "They have a fixed schema.",
-        "b": "They are optimized for high-speed read and write operations.",
-        "c": "They lack support for distributed systems.",
-        "d": "They are always slower than relational databases."
+        "A": "They have a fixed schema.",
+        "B": "They are optimized for high-speed read and write operations.",
+        "C": "They lack support for distributed systems.",
+        "D": "They are always slower than relational databases."
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "They are optimized for high-speed read and write operations.",
       "technical_note": "Reworded because performance characteristics vary by NoSQL database and workload."
     },
@@ -2027,12 +2027,12 @@
       "section_question_number": 4,
       "question": "Which feature of NoSQL databases reduces the complexity of data retrieval?",
       "options": {
-        "a": "Support for distributed systems",
-        "b": "No need for complex joins",
-        "c": "Use of fixed schemas",
-        "d": "Support for SQL queries only"
+        "A": "Support for distributed systems",
+        "B": "No need for complex joins",
+        "C": "Use of fixed schemas",
+        "D": "Support for SQL queries only"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "No need for complex joins"
     },
     {
@@ -2042,12 +2042,12 @@
       "section_question_number": 5,
       "question": "What makes NoSQL databases cost-effective?",
       "options": {
-        "a": "Only works with structured data",
-        "b": "Requires expensive hardware",
-        "c": "Many are open-source and use commodity hardware",
-        "d": "Requires complex schema design"
+        "A": "Only works with structured data",
+        "B": "Requires expensive hardware",
+        "C": "Many are open-source and use commodity hardware",
+        "D": "Requires complex schema design"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Many are open-source and use commodity hardware"
     },
     {
@@ -2057,12 +2057,12 @@
       "section_question_number": 6,
       "question": "How do NoSQL databases handle schema changes?",
       "options": {
-        "a": "Requires downtime to update the schema",
-        "b": "Schema changes are not supported",
-        "c": "Supports flexible schema changes without requiring a fixed schema upfront",
-        "d": "Requires fixed schema upfront"
+        "A": "Requires downtime to update the schema",
+        "B": "Schema changes are not supported",
+        "C": "Supports flexible schema changes without requiring a fixed schema upfront",
+        "D": "Requires fixed schema upfront"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Supports flexible schema changes without requiring a fixed schema upfront",
       "technical_note": "Replaced the absolute claim \"Automatically adapts\" with the more accurate concept of flexible schema/schema evolution."
     },
@@ -2073,12 +2073,12 @@
       "section_question_number": 1,
       "question": "Which type of database uses a predefined schema?",
       "options": {
-        "a": "Relational Database",
-        "b": "NoSQL",
-        "c": "Both SQL and NoSQL",
-        "d": "Neither SQL nor NoSQL"
+        "A": "Relational Database",
+        "B": "NoSQL",
+        "C": "Both SQL and NoSQL",
+        "D": "Neither SQL nor NoSQL"
       },
-      "correct_option": "a",
+      "correct_option": "A",
       "correct_answer": "Relational Database",
       "technical_note": "Corrected the answer category: SQL is a query language; the database type with a predefined schema is a relational database."
     },
@@ -2089,12 +2089,12 @@
       "section_question_number": 2,
       "question": "What is a major advantage of NoSQL databases over SQL databases?",
       "options": {
-        "a": "Strong support for joins",
-        "b": "Fixed schema",
-        "c": "Horizontal scalability",
-        "d": "Limited support for unstructured data"
+        "A": "Strong support for joins",
+        "B": "Fixed schema",
+        "C": "Horizontal scalability",
+        "D": "Limited support for unstructured data"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Horizontal scalability"
     },
     {
@@ -2104,12 +2104,12 @@
       "section_question_number": 3,
       "question": "Which type of database is better suited for handling structured data?",
       "options": {
-        "a": "Relational Database",
-        "b": "NoSQL",
-        "c": "Both SQL and NoSQL",
-        "d": "None of the above"
+        "A": "Relational Database",
+        "B": "NoSQL",
+        "C": "Both SQL and NoSQL",
+        "D": "None of the above"
       },
-      "correct_option": "a",
+      "correct_option": "A",
       "correct_answer": "Relational Database",
       "technical_note": "Corrected the answer category: structured/tabular data is classically associated with relational databases, while SQL is the query language used by them."
     },
@@ -2120,12 +2120,12 @@
       "section_question_number": 4,
       "question": "Which of the following is an example of a NoSQL database?",
       "options": {
-        "a": "MySQL",
-        "b": "PostgreSQL",
-        "c": "MongoDB",
-        "d": "Oracle"
+        "A": "MySQL",
+        "B": "PostgreSQL",
+        "C": "MongoDB",
+        "D": "Oracle"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "MongoDB"
     },
     {
@@ -2135,12 +2135,12 @@
       "section_question_number": 5,
       "question": "What makes NoSQL databases more flexible than SQL databases?",
       "options": {
-        "a": "Predefined schema",
-        "b": "Schema-less design",
-        "c": "Complex relationships",
-        "d": "Dependence on SQL"
+        "A": "Predefined schema",
+        "B": "Schema-less design",
+        "C": "Complex relationships",
+        "D": "Dependence on SQL"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Schema-less design"
     },
     {
@@ -2150,12 +2150,12 @@
       "section_question_number": 6,
       "question": "SQL databases are typically scaled by:",
       "options": {
-        "a": "Adding more servers (horizontal scaling)",
-        "b": "Adding more resources to the same server (vertical scaling)",
-        "c": "Both horizontal and vertical scaling equally",
-        "d": "Neither horizontal nor vertical scaling"
+        "A": "Adding more servers (horizontal scaling)",
+        "B": "Adding more resources to the same server (vertical scaling)",
+        "C": "Both horizontal and vertical scaling equally",
+        "D": "Neither horizontal nor vertical scaling"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Adding more resources to the same server (vertical scaling)"
     },
     {
@@ -2165,12 +2165,12 @@
       "section_question_number": 7,
       "question": "Which type of database is ideal for applications with rapidly changing data models?",
       "options": {
-        "a": "SQL",
-        "b": "NoSQL",
-        "c": "Both SQL and NoSQL",
-        "d": "None of the above"
+        "A": "SQL",
+        "B": "NoSQL",
+        "C": "Both SQL and NoSQL",
+        "D": "None of the above"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "NoSQL"
     },
     {
@@ -2180,12 +2180,12 @@
       "section_question_number": 8,
       "question": "Which query language is used by SQL databases?",
       "options": {
-        "a": "Structured Query Language (SQL)",
-        "b": "JSON Query Language (JQL)",
-        "c": "NoSQL Query Language",
-        "d": "Custom APIs"
+        "A": "Structured Query Language (SQL)",
+        "B": "JSON Query Language (JQL)",
+        "C": "NoSQL Query Language",
+        "D": "Custom APIs"
       },
-      "correct_option": "a",
+      "correct_option": "A",
       "correct_answer": "Structured Query Language (SQL)"
     },
     {
@@ -2195,12 +2195,12 @@
       "section_question_number": 1,
       "question": "Which type of NoSQL database stores data in key-value pairs?",
       "options": {
-        "a": "Document Store",
-        "b": "Column-Family Store",
-        "c": "Key-Value Store",
-        "d": "Graph Database"
+        "A": "Document Store",
+        "B": "Column-Family Store",
+        "C": "Key-Value Store",
+        "D": "Graph Database"
       },
-      "correct_option": "c",
+      "correct_option": "C",
       "correct_answer": "Key-Value Store"
     },
     {
@@ -2210,12 +2210,12 @@
       "section_question_number": 2,
       "question": "MongoDB is an example of which type of NoSQL database?",
       "options": {
-        "a": "Document Store",
-        "b": "Key-Value Store",
-        "c": "Column-Family Store",
-        "d": "Graph Database"
+        "A": "Document Store",
+        "B": "Key-Value Store",
+        "C": "Column-Family Store",
+        "D": "Graph Database"
       },
-      "correct_option": "a",
+      "correct_option": "A",
       "correct_answer": "Document Store"
     },
     {
@@ -2225,12 +2225,12 @@
       "section_question_number": 3,
       "question": "Which type of NoSQL database is optimized for managing relationships between entities?",
       "options": {
-        "a": "Document Store",
-        "b": "Graph Database",
-        "c": "Column-Family Store",
-        "d": "Key-Value Store"
+        "A": "Document Store",
+        "B": "Graph Database",
+        "C": "Column-Family Store",
+        "D": "Key-Value Store"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Graph Database"
     },
     {
@@ -2240,12 +2240,12 @@
       "section_question_number": 4,
       "question": "Which NoSQL database type can be suitable for large-scale analytics and certain time-series workloads?",
       "options": {
-        "a": "Key-Value Store",
-        "b": "Column-Family Store",
-        "c": "Graph Database",
-        "d": "Document Store"
+        "A": "Key-Value Store",
+        "B": "Column-Family Store",
+        "C": "Graph Database",
+        "D": "Document Store"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Column-Family Store",
       "technical_note": "Reworded because specialized time-series databases also exist; column-family stores can be suitable for certain large-scale workloads but are not universally the single best choice."
     },
@@ -2256,12 +2256,12 @@
       "section_question_number": 5,
       "question": "Redis is an example of which type of NoSQL database?",
       "options": {
-        "a": "Document Store",
-        "b": "Key-Value Store",
-        "c": "Column-Family Store",
-        "d": "Graph Database"
+        "A": "Document Store",
+        "B": "Key-Value Store",
+        "C": "Column-Family Store",
+        "D": "Graph Database"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Key-Value Store"
     },
     {
@@ -2271,12 +2271,12 @@
       "section_question_number": 6,
       "question": "Which type of NoSQL database is most suitable for storing hierarchical data in JSON format?",
       "options": {
-        "a": "Document Store",
-        "b": "Column-Family Store",
-        "c": "Key-Value Store",
-        "d": "Graph Database"
+        "A": "Document Store",
+        "B": "Column-Family Store",
+        "C": "Key-Value Store",
+        "D": "Graph Database"
       },
-      "correct_option": "a",
+      "correct_option": "A",
       "correct_answer": "Document Store"
     },
     {
@@ -2286,12 +2286,12 @@
       "section_question_number": 7,
       "question": "Which of the following NoSQL databases is a graph database?",
       "options": {
-        "a": "Cassandra",
-        "b": "Neo4j",
-        "c": "MongoDB",
-        "d": "Redis"
+        "A": "Cassandra",
+        "B": "Neo4j",
+        "C": "MongoDB",
+        "D": "Redis"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Neo4j"
     },
     {
@@ -2301,12 +2301,12 @@
       "section_question_number": 8,
       "question": "Which NoSQL database type is best for storing large-scale tabular data?",
       "options": {
-        "a": "Document Store",
-        "b": "Column-Family Store",
-        "c": "Key-Value Store",
-        "d": "Graph Database"
+        "A": "Document Store",
+        "B": "Column-Family Store",
+        "C": "Key-Value Store",
+        "D": "Graph Database"
       },
-      "correct_option": "b",
+      "correct_option": "B",
       "correct_answer": "Column-Family Store"
     },
     {

@@ -15,7 +15,7 @@
    CONSTANTS
    ═══════════════════════════════════════════════════════════ */
 const DATA_PATH      = './data/QB-DataScience_withAnswers.json';
-const EXPECTED_COUNT = 150;
+const EXPECTED_COUNT = 172;
 const EXAM_COUNT     = 25;
 const LS_THEME       = 'cb_theme';
 const LS_MISTAKES    = 'cb_mistakes';
@@ -169,20 +169,22 @@ async function loadData() {
 
   const qs = raw.questions;
   if (!Array.isArray(qs)) throw new Error('questions field is not an array.');
-  if (qs.length !== EXPECTED_COUNT)
-    throw new Error(`Expected ${EXPECTED_COUNT} questions, found ${qs.length}.`);
+  const expectedCount = raw.metadata?.expected_question_count || raw.metadata?.total_questions || EXPECTED_COUNT;
+  if (qs.length !== expectedCount)
+    throw new Error(`Expected ${expectedCount} questions, found ${qs.length}.`);
 
   const seenIds = new Set();
   const VALID_OPTIONS = ['A','B','C','D'];
 
   for (let i = 0; i < qs.length; i++) {
     const q = qs[i];
-    const loc = `Question #${q.srno ?? i+1}`;
+    if (q.srno === undefined || q.srno === null) {
+      q.srno = q.id !== undefined && q.id !== null ? q.id : i + 1;
+    }
+    const loc = `Question #${q.srno}`;
 
-    if (q.srno === undefined || q.srno === null)
-      throw new Error(`${loc}: missing srno field.`);
     if (seenIds.has(q.srno))
-      throw new Error(`Duplicate srno: ${q.srno}.`);
+      throw new Error(`Duplicate srno/id: ${q.srno}.`);
     seenIds.add(q.srno);
 
     if (!q.question || typeof q.question !== 'string')
@@ -191,10 +193,18 @@ async function loadData() {
     if (!q.options || typeof q.options !== 'object')
       throw new Error(`${loc}: missing options object.`);
 
+    // Normalize option keys to uppercase
+    const normOptions = {};
+    for (const [k, v] of Object.entries(q.options)) {
+      normOptions[k.toUpperCase()] = v;
+    }
+    q.options = normOptions;
+
     const optKeys = Object.keys(q.options);
     if (optKeys.length !== 4 || !VALID_OPTIONS.every(k => optKeys.includes(k)))
       throw new Error(`${loc}: options must have exactly keys A, B, C, D.`);
 
+    if (q.correct_option) q.correct_option = String(q.correct_option).toUpperCase();
     if (!q.correct_option || !VALID_OPTIONS.includes(q.correct_option))
       throw new Error(`${loc}: invalid correct_option "${q.correct_option}".`);
   }
@@ -561,7 +571,7 @@ function startTest() {
     wrongCount: 0,
     answers: new Map(),
   };
-  startStudyScreen('test', 'Test — 150 Questions', true, true);
+  startStudyScreen('test', `Test — ${questions.length} Questions`, true, true);
   updateProgressBar(0, questions.length);
   renderTest(false);
 }
