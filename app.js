@@ -468,21 +468,22 @@ function startStudyScreen(modeName, modeTitle, showProgress, showNav) {
 }
 
 /* ═══════════════════════════════════════════════════════════
-   MODE 1 — READ ALL
+   MODE 1 — READ ALL (Pre-ticked Answers)
    ═══════════════════════════════════════════════════════════ */
 function startReadAll() {
-  session = { mode: 'readall', revealed: new Map() };
+  session = { mode: 'readall' };
   startStudyScreen('readall', 'Read — All Questions', false, false);
 
   const list = $('readall-list');
   list.innerHTML = '';
 
   questions.forEach((q, i) => {
+    // In Read All mode, correct answers are pre-selected & revealed for easy reading
     const card = buildQuestionCard(
       q, i + 1, questions.length,
-      null, false,
-      (key) => revealReadAll(q, key, i),
-      false
+      q.correct_option, true,
+      null,
+      true
     );
     card.id = `ra-card-${q.srno}`;
     card.classList.add('read-all-question');
@@ -491,51 +492,30 @@ function startReadAll() {
 }
 
 function revealReadAll(q, selectedKey, index) {
-  session.revealed.set(q.srno, { selected: selectedKey, correct: q.correct_option });
-
-  // Re-render this card in place
-  const oldCard = $(`ra-card-${q.srno}`);
-  if (!oldCard) return;
-
-  const newCard = buildQuestionCard(
-    q, index + 1, questions.length,
-    selectedKey, true,
-    null, true
-  );
-  newCard.id = `ra-card-${q.srno}`;
-  newCard.classList.add('read-all-question');
-  oldCard.replaceWith(newCard);
-
-  // Animate correct/wrong
-  const btns = newCard.querySelectorAll('.option-btn');
-  btns.forEach(btn => {
-    if (btn.classList.contains('wrong')) shakeButton(btn);
-    if (btn.classList.contains('correct')) popButton(btn);
-  });
+  // Retained for safety
 }
 
 /* ═══════════════════════════════════════════════════════════
-   MODE 2 — READ ONE BY ONE
+   MODE 2 — READ ONE BY ONE (Pre-ticked Answers)
    ═══════════════════════════════════════════════════════════ */
 function startReadOne() {
-  session = { mode: 'readone', index: 0, revealed: new Map() };
+  session = { mode: 'readone', index: 0 };
   startStudyScreen('readone', 'Read — One by One', true, true);
   updateProgressBar(0, questions.length);
   renderReadOne(false);
 }
 
 function renderReadOne(goingBack) {
-  const { index, revealed } = session;
+  const { index } = session;
   const q = questions[index];
-  const rev = revealed.get(q.srno);
   const container = $('readone-card');
 
+  // In Read One mode, correct answer is pre-selected & revealed for easy reading
   const card = buildQuestionCard(
     q, index + 1, questions.length,
-    rev?.selected || null,
-    !!rev,
-    (key) => revealReadOne(q, key),
-    false
+    q.correct_option, true,
+    null,
+    true
   );
 
   card.classList.add(goingBack ? 'question-entering-back' : 'question-entering');
@@ -544,18 +524,26 @@ function renderReadOne(goingBack) {
 
   $('readone-current').textContent = index + 1;
   updateProgressBar(index, questions.length);
-  updateBottomNav(index + 1, questions.length, index === 0);
+
+  const isLast = index === questions.length - 1;
+  updateBottomNav(index + 1, questions.length, index === 0, isLast ? 'Finish' : 'Next');
+  $('nav-prev').classList.remove('hidden');
+  $('nav-next').classList.remove('hidden');
+  $('nav-prev').disabled = index === 0;
+  $('nav-next').disabled = false;
 }
 
 function revealReadOne(q, selectedKey) {
-  session.revealed.set(q.srno, { selected: selectedKey, correct: q.correct_option });
-  renderReadOne(false);
+  // Retained for safety
 }
 
 function readOneNav(dir) {
   const { index } = session;
   if (dir === -1 && index === 0) return;
-  if (dir === 1 && index === questions.length - 1) return;
+  if (dir === 1 && index === questions.length - 1) {
+    goHome();
+    return;
+  }
   session.index += dir;
   renderReadOne(dir === -1);
 }
